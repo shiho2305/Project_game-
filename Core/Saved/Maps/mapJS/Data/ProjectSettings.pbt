@@ -1,0 +1,3 @@
+LeaderboardConfigs {
+}
+MainScene: "Third Person"

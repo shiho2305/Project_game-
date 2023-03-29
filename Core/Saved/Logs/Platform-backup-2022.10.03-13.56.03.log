@@ -1,0 +1,379 @@
+﻿Log file open, 10/03/22 19:40:27
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.26-CL-0
+LogInit: Engine Version: 4.26.2-0+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-0+++UE4+Release-4.26
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 21H2) (), CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): May  9 2022 13:02:31
+LogInit: Compiled with Visual C++: 19.29.30038.01
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -ENV=Prod -LAUNCHER_VERSION="2.2.36.0 (ce0fc589)"
+LogInit: Base Directory: C:/ProgramData/Manticore Games/Core/Platform/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.10.03-12.40.31:339][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2022.10.03-12.40.31:339][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2022.10.03-12.40.31:339][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2022.10.03-12.40.31:339][  0]LogInit: Going up to parent DeviceProfile []
+[2022.10.03-12.40.31:340][  0]LogInit: CPU Page size=4096, Cores=2
+[2022.10.03-12.40.31:340][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.10.03-12.40.31:340][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2022.10.03-12.40.31:340][  0]LogMemory: Process Physical Memory: 103.83 MB used, 103.84 MB peak
+[2022.10.03-12.40.31:340][  0]LogMemory: Process Virtual Memory: 108.29 MB used, 108.29 MB peak
+[2022.10.03-12.40.31:340][  0]LogMemory: Physical Memory: 7790.96 MB used,  8448.41 MB free, 16239.38 MB total
+[2022.10.03-12.40.31:340][  0]LogMemory: Virtual Memory: 134208688.00 MB used,  9039.82 MB free, 134217728.00 MB total
+[2022.10.03-12.40.31:543][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.10.03-12.40.31:550][  0]LogInit: Using OS detected language (en-US).
+[2022.10.03-12.40.31:550][  0]LogInit: Using OS detected locale (en-US).
+[2022.10.03-12.40.31:617][  0]LogInit: Setting process to per monitor DPI aware
+[2022.10.03-12.40.31:822][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.10.03-12.40.31:822][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.10.03-12.40.31:822][  0]LogD3D11RHI: D3D11 adapters:
+[2022.10.03-12.40.33:147][  0]LogD3D11RHI:    0. 'NVIDIA Quadro M500M' (Feature Level 11_0)
+[2022.10.03-12.40.33:147][  0]LogD3D11RHI:       2010/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.10.03-12.40.33:361][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2022.10.03-12.40.33:361][  0]LogD3D11RHI:       128/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.10.03-12.40.33:374][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.10.03-12.40.33:374][  0]LogD3D11RHI:       0/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.10.03-12.40.33:375][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.10.03-12.40.33:393][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.10.03-12.40.33:394][  0]LogD3D11RHI:     GPU DeviceId: 0x137a (for the marketing name, search the web for "GPU Device Id")
+[2022.10.03-12.40.33:400][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro M500M
+[2022.10.03-12.40.33:400][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.10.03-12.40.33:400][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.10.03-12.40.33:400][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2022.10.03-12.40.33:771][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.10.03-12.40.33:773][  0]LogD3D11RHI: Async texture creation enabled
+[2022.10.03-12.40.33:843][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.10.03-12.40.33:861][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.10.03-12.40.34:433][  0]LogInit: Using OS detected language (en-US).
+[2022.10.03-12.40.34:433][  0]LogInit: Using OS detected locale (en-US).
+[2022.10.03-12.40.35:545][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2022.10.03-12.40.35:546][  0]LogInit: Active device profile: [0000012CA899A6C0][0000012CA7F9A300 49] WindowsNoEditor
+[2022.10.03-12.40.35:546][  0]LogInit: Profiles: [0000012CA899A600][0000012CA7F9BA40 49] Windows, [0000012CA899A6C0][0000012CA7F9A300 49] WindowsNoEditor, 
+[2022.10.03-12.40.35:629][  0]LogNetVersion: Platform 1.0.0, NetCL: 0, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3370718275)
+[2022.10.03-12.40.36:585][  0]PlatformStorage: Migrating GlobalInputOverrides
+[2022.10.03-12.40.36:792][  0]PlatformStorage: Verbose: Reading ../../../Platform/Config/ directory structure took 25.775600ms
+[2022.10.03-12.40.36:792][  0]PlatformStorage: Verbose: Lambda: OnComplete took 0.008800ms
+[2022.10.03-12.40.36:792][  0]PlatformStorage: Verbose: Lambda: OnComplete took 0.012100ms
+[2022.10.03-12.40.36:845][  0]LogEngine: Initializing Engine...
+[2022.10.03-12.40.37:254][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.10.03-12.40.37:754][  0]LogInit: FAudioDevice initialized.
+[2022.10.03-12.40.37:756][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.10.03-12.40.37:756][  0]LogInit: Texture streaming: Enabled
+[2022.10.03-12.40.39:497][  0]PlatformVoiceChat: Finished creating VoiceClient.
+[2022.10.03-12.40.39:525][  0]PlatformVoiceChat: VoiceClient initialized.
+[2022.10.03-12.40.39:525][  0]PlatformInit: Display: Platform Build Version: 1.0.266-prod-s
+[2022.10.03-12.40.40:486][  0]LogInit: Display: Game Engine Initialized.
+[2022.10.03-12.40.40:505][  0]LogInit: Display: Starting Game.
+[2022.10.03-12.40.40:505][  0]LogNet: Browse: /Game/Levels/Main?Name=Player
+[2022.10.03-12.40.41:163][  0]LogLoad: LoadMap: /Game/Levels/Main?Name=Player
+[2022.10.03-12.40.41:163][  0]LogWorld: BeginTearingDown for /Temp/Untitled_20
+[2022.10.03-12.40.41:164][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-12.40.41:403][  0]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.03-12.40.41:404][  0]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2022.10.03-19.40.41
+[2022.10.03-12.40.41:404][  0]LogWorld: Bringing up level for play took: 0.000407
+[2022.10.03-12.40.41:698][  0]LogLoad: Took 0.535792 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.03-12.40.41:698][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.10.03-12.40.41:698][  0]LogLoad: (Engine Initialization) Total time: 14.39 seconds
+[2022.10.03-12.40.50:604][128]PlatformVoiceChat: Vivox LoginSession State Change: LoginState::LoggingIn
+[2022.10.03-12.40.50:666][130]LogHttp: Warning: 0000012CC06DB270: invalid HTTP response code received. URL: https://www.coregames.com/api/Quest/levels, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.10.03-12.40.50:666][130]LogHttp: Warning: 0000012CC06DB270: request failed, libcurl error: 0 (No error)
+[2022.10.03-12.40.50:666][130]LogHttp: Warning: 0000012CC06DB270: libcurl info message cache 0 (Found bundle for host www.coregames.com: 0x12cae5505e0 [can pipeline])
+[2022.10.03-12.40.50:666][130]LogHttp: Warning: 0000012CC06DB270: libcurl info message cache 1 (Re-using existing connection! (#23) with host www.coregames.com)
+[2022.10.03-12.40.50:666][130]LogHttp: Warning: 0000012CC06DB270: libcurl info message cache 2 (Connected to www.coregames.com (20.69.134.17) port 443 (#23))
+[2022.10.03-12.40.50:666][130]LogHttp: Warning: 0000012CC06DB270: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.10.03-12.40.50:666][130]LogHttp: Warning: 0000012CC06DB270: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2022.10.03-12.40.50:666][130]LogHttp: Warning: 0000012CC06DB270: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.10.03-12.40.50:666][130]LogHttp: Warning: 0000012CC06DB270: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.10.03-12.40.50:666][130]LogHttp: Warning: 0000012CC06DB270: libcurl info message cache 7 (Closing connection 23)
+[2022.10.03-12.40.50:666][130]LogHttp: Warning: 0000012CC06DB270: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.10.03-12.40.50:697][131]LogHttp: Warning: Retry exhausted on https://www.coregames.com/api/Quest/levels
+[2022.10.03-12.40.50:697][131]LogCoreSDK: Error: Request failed: Url: https://www.coregames.com/api/Quest/levels Post; Error: Request failed Request: REDACTED Response: REDACTED - RESPONSE CODE: -1
+[2022.10.03-12.40.50:928][137]LogNet: Browse: /Game/Levels/FrontEnd
+[2022.10.03-12.40.50:929][137]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2022.10.03-12.40.50:929][137]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.03-12.40.50:929][137]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-12.40.51:323][137]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2022.10.03-12.40.51:352][137]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2022.10.03-19.40.51
+[2022.10.03-12.40.51:352][137]LogWorld: Bringing up level for play took: 0.000813
+[2022.10.03-12.40.51:357][137]LogLoad: Took 0.428449 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2022.10.03-12.40.53:702][139]LogHttp: Warning: 0000012CBC7744F0: invalid HTTP response code received. URL: https://www.coregames.com/api/Game/custom_collections?kind=game_category_reward_points, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.10.03-12.40.53:702][139]LogHttp: Warning: 0000012CBC7744F0: request failed, libcurl error: 0 (No error)
+[2022.10.03-12.40.53:702][139]LogHttp: Warning: 0000012CBC7744F0: libcurl info message cache 0 (Found bundle for host www.coregames.com: 0x12cae5505e0 [can pipeline])
+[2022.10.03-12.40.53:702][139]LogHttp: Warning: 0000012CBC7744F0: libcurl info message cache 1 (Re-using existing connection! (#21) with host www.coregames.com)
+[2022.10.03-12.40.53:702][139]LogHttp: Warning: 0000012CBC7744F0: libcurl info message cache 2 (Connected to www.coregames.com (20.69.134.17) port 443 (#21))
+[2022.10.03-12.40.53:702][139]LogHttp: Warning: 0000012CBC7744F0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.10.03-12.40.53:702][139]LogHttp: Warning: 0000012CBC7744F0: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2022.10.03-12.40.53:702][139]LogHttp: Warning: 0000012CBC7744F0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.10.03-12.40.53:702][139]LogHttp: Warning: 0000012CBC7744F0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.10.03-12.40.53:702][139]LogHttp: Warning: 0000012CBC7744F0: libcurl info message cache 7 (Closing connection 21)
+[2022.10.03-12.40.53:702][139]LogHttp: Warning: 0000012CBC7744F0: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.10.03-12.40.53:806][140]LogHttp: Warning: Retry exhausted on https://www.coregames.com/api/Game/custom_collections?kind=game_category_reward_points
+[2022.10.03-12.40.53:807][140]LogCoreSDK: Error: Request failed: Url: https://www.coregames.com/api/Game/custom_collections?kind=game_category_reward_points Post; Error: Request failed Request: REDACTED Response: REDACTED - RESPONSE CODE: -1
+[2022.10.03-12.40.57:985][219]PlatformVoiceChat: Vivox LoginSession State Change: LoginState::LoggedIn
+[2022.10.03-12.40.57:985][219]PlatformVoiceChat: Vivox login success
+[2022.10.03-12.41.13:956][502]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 0 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.41.34:994][884]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.41.56:033][264]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.42.18:359][672]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.42.39:413][ 53]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.43.00:453][435]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.43.51:506][369]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.44.12:551][752]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.44.33:604][132]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.44.54:767][509]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.45.15:888][896]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.45.36:932][276]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.46.27:960][206]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.46.49:000][586]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.47.10:058][967]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.47.31:111][352]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.47.52:126][732]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.48.13:184][119]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.49.04:212][ 42]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.49.25:247][425]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.49.46:291][808]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.50.07:328][194]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.50.28:409][574]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.50.49:680][958]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.51.40:751][869]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.52.01:793][245]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.52.23:070][625]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.52.44:154][999]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.53.05:633][387]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.53.26:653][760]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.54.17:694][671]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.54.38:723][ 43]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.54.59:748][414]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.55.20:794][787]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.55.41:829][158]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.56.02:883][532]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.56.53:913][448]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.57.14:958][824]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.57.24:388][973]LogRHI: Error: Present Fail Count 1
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SyncInterval 0
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1920
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1080
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000040936
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.Windowed true
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2022.10.03-12.57.24:389][973]LogRHI: Error: SwapChainDesc.Flags 2050
+[2022.10.03-12.57.35:990][182]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.57.57:043][561]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.58.18:086][937]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.58.39:128][323]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-12.59.30:157][234]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-12.59.51:195][613]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.00.12:229][995]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.00.33:262][373]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.00.54:312][750]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.01.15:353][126]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.02.06:394][ 38]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.02.27:429][410]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.02.48:456][781]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.03.09:497][158]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.03.30:523][537]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.03.51:562][913]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.04.42:610][830]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.05.03:646][206]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.05.24:684][578]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.05.45:731][958]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.06.06:782][336]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.06.27:831][717]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.07.18:869][631]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.07.39:911][  8]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.08.00:962][383]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.08.22:000][760]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.08.43:047][136]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.09.04:109][510]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.09.55:135][409]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.10.16:219][777]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.10.37:465][157]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.10.58:516][535]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.11.19:541][910]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.11.40:578][287]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.12.31:588][195]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.12.52:636][570]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.13.13:674][944]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.13.34:869][320]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.13.56:082][697]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.14.17:118][ 69]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.15.08:170][969]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.15.29:210][339]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.15.50:250][706]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.16.11:292][ 77]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.16.32:340][453]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.16.53:390][825]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.17.44:427][728]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.18.05:456][ 93]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.18.26:507][473]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.18.47:558][846]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.19.08:610][214]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.19.29:656][579]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.20.20:681][469]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.20.41:723][840]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.21.02:765][209]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.21.23:815][578]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.21.44:861][947]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.22.05:887][312]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.22.56:951][207]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.23.17:996][571]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.23.39:059][938]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.24.00:112][310]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.24.21:307][681]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.24.42:790][ 61]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.25.33:843][956]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.25.54:869][324]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.26.16:036][689]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.26.37:191][ 50]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.26.58:216][414]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.27.19:261][782]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.28.10:405][671]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.28.31:827][ 49]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.28.53:327][413]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.29.14:626][777]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.29.36:237][142]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.29.57:275][498]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.30.48:544][374]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.31.09:770][730]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.31.30:820][ 73]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.31.51:861][415]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.32.13:064][754]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.32.34:132][ 91]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.33.25:189][902]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.33.46:240][238]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.34.07:297][572]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.34.28:343][906]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.34.49:399][238]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.35.10:441][571]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.36.01:479][377]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.36.22:514][709]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.36.43:546][ 37]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.37.04:592][374]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.37.25:650][712]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.37.46:687][ 41]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.38.37:721][851]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.38.58:755][183]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.39.19:796][511]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.39.40:855][847]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.40.01:898][184]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.40.22:945][517]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.41.13:975][340]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.41.35:022][676]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.41.56:067][  0]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.42.17:118][325]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.42.38:158][643]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.42.59:209][962]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.43.50:362][666]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.44.11:404][952]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.44.32:440][236]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.44.53:489][520]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.45.14:536][793]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.45.35:613][ 57]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.46.27:133][718]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.46.48:571][995]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.47.09:879][268]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.47.31:017][539]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.47.52:444][814]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.48.14:034][ 90]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.49.05:117][750]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.49.26:151][ 28]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.49.47:202][307]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.50.08:254][588]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.50.29:285][868]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.50.50:325][145]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.51.41:468][828]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.52.02:514][112]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.52.23:554][400]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.52.44:600][712]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.53.05:653][ 31]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.53.26:707][350]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.54.17:753][130]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.54.38:803][456]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.54.59:852][782]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-13.55.20:900][107]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.55.33:987][294]LogRHI: Error: Present Fail Count 1
+[2022.10.03-13.55.33:987][294]LogRHI: Error: SyncInterval 0
+[2022.10.03-13.55.33:987][294]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1920
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1080
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000040936
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.Windowed true
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2022.10.03-13.55.33:988][294]LogRHI: Error: SwapChainDesc.Flags 2050
+[2022.10.03-13.55.42:016][426]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.55.54:996][630]LogRHI: Error: Present Fail Count 1
+[2022.10.03-13.55.54:996][630]LogRHI: Error: SyncInterval 0
+[2022.10.03-13.55.54:996][630]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1920
+[2022.10.03-13.55.54:996][630]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1080
+[2022.10.03-13.55.54:996][630]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2022.10.03-13.55.54:996][630]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2022.10.03-13.55.54:997][630]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2022.10.03-13.55.54:997][630]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2022.10.03-13.55.54:997][630]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2022.10.03-13.55.54:997][630]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2022.10.03-13.55.54:997][630]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2022.10.03-13.55.54:997][630]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2022.10.03-13.55.54:997][630]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2022.10.03-13.55.54:997][630]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000040936
+[2022.10.03-13.55.54:997][630]LogRHI: Error: SwapChainDesc.Windowed true
+[2022.10.03-13.55.54:997][630]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2022.10.03-13.55.54:997][630]LogRHI: Error: SwapChainDesc.Flags 2050
+[2022.10.03-13.55.58:651][690]LogInit: Display: PreExit Game.
+[2022.10.03-13.55.58:665][690]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2022.10.03-13.55.58:948][690]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-13.55.58:950][690]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-13.55.58:950][690]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-13.55.58:951][690]LogWorld: BeginTearingDown for /Engine/Transient
+[2022.10.03-13.55.58:951][690]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-13.55.59:132][690]LogExit: Preparing to exit.
+[2022.10.03-13.55.59:261][690]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-13.55.59:310][690]LogExit: Game engine shut down
+[2022.10.03-13.55.59:615][690]LogExit: Object subsystem successfully closed.
+[2022.10.03-13.56.03:099][690]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-13.56.03:099][690]LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2022.10.03-13.56.03:185][690]LogD3D11RHI: Shutdown
+[2022.10.03-13.56.03:185][690]LogD3D11RHI: CleanupD3DDevice
+[2022.10.03-13.56.03:198][690]LogExit: Exiting.
+[2022.10.03-13.56.03:210][690]Log file closed, 10/03/22 20:56:03

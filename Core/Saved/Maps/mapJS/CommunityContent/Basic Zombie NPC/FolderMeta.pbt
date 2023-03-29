@@ -1,0 +1,95 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "b6c2a829c8fc4b6f9050c63c58d28f99"
+  OwnerAccountId: "3051a071619a435385ecf62975cea53f"
+  OwnerName: "DoYouKillDeer"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 1068405103400361345
+  value: 10348494340629350850
+}
+AssetIdsOriginalToNew {
+  key: 1399748643409968208
+  value: 14396801467647326132
+}
+AssetIdsOriginalToNew {
+  key: 2102181703977069891
+  value: 18208521996678295056
+}
+AssetIdsOriginalToNew {
+  key: 2227985837533792165
+  value: 12528772041406721517
+}
+AssetIdsOriginalToNew {
+  key: 2917516154902188907
+  value: 4311118544002129244
+}
+AssetIdsOriginalToNew {
+  key: 3824420522364601452
+  value: 2277214324636125135
+}
+AssetIdsOriginalToNew {
+  key: 5992448143337534862
+  value: 8266899106321769628
+}
+AssetIdsOriginalToNew {
+  key: 7685254920588280711
+  value: 14161075521563833350
+}
+AssetIdsOriginalToNew {
+  key: 7903961538106116842
+  value: 8741138891235891216
+}
+AssetIdsOriginalToNew {
+  key: 8996552557643718600
+  value: 16693534188347284993
+}
+AssetIdsOriginalToNew {
+  key: 9827251488644147969
+  value: 10310875465800724844
+}
+AssetIdsOriginalToNew {
+  key: 11149995552776370816
+  value: 5904352832503151917
+}
+AssetIdsOriginalToNew {
+  key: 11165824210441743350
+  value: 8975905208832514413
+}
+AssetIdsOriginalToNew {
+  key: 11535294375112549966
+  value: 4662532969175604711
+}
+AssetIdsOriginalToNew {
+  key: 12314171607907446397
+  value: 4779512065994738128
+}
+AssetIdsOriginalToNew {
+  key: 12651419960628509469
+  value: 6146663871389980092
+}
+AssetIdsOriginalToNew {
+  key: 12807303046540886303
+  value: 16227566960249720859
+}
+AssetIdsOriginalToNew {
+  key: 14278873715362070509
+  value: 3370115784116595139
+}
+AssetIdsOriginalToNew {
+  key: 15753004129416267504
+  value: 17756485355233141425
+}
+AssetIdsOriginalToNew {
+  key: 16489800799753590215
+  value: 10399568415871146826
+}
+AssetIdsOriginalToNew {
+  key: 17632283365212333509
+  value: 7012333069099083847
+}
+AssetIdsOriginalToNew {
+  key: 18180259999168910535
+  value: 18395684699962637615
+}

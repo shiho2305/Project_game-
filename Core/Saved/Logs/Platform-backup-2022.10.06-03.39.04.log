@@ -1,0 +1,182 @@
+﻿Log file open, 10/06/22 10:37:40
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.26-CL-0
+LogInit: Engine Version: 4.26.2-0+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-0+++UE4+Release-4.26
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 21H2) (), CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): May  9 2022 13:02:31
+LogInit: Compiled with Visual C++: 19.29.30038.01
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -ENV=Prod -LAUNCHER_VERSION="2.2.36.0 (ce0fc589)"
+LogInit: Base Directory: C:/ProgramData/Manticore Games/Core/Platform/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.10.06-03.37.43:234][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2022.10.06-03.37.43:234][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2022.10.06-03.37.43:234][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2022.10.06-03.37.43:234][  0]LogInit: Going up to parent DeviceProfile []
+[2022.10.06-03.37.43:240][  0]LogInit: CPU Page size=4096, Cores=2
+[2022.10.06-03.37.43:240][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.10.06-03.37.43:240][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2022.10.06-03.37.43:240][  0]LogMemory: Process Physical Memory: 103.70 MB used, 103.70 MB peak
+[2022.10.06-03.37.43:240][  0]LogMemory: Process Virtual Memory: 108.25 MB used, 108.25 MB peak
+[2022.10.06-03.37.43:240][  0]LogMemory: Physical Memory: 8143.56 MB used,  8095.81 MB free, 16239.38 MB total
+[2022.10.06-03.37.43:240][  0]LogMemory: Virtual Memory: 134209560.00 MB used,  8169.12 MB free, 134217728.00 MB total
+[2022.10.06-03.37.43:324][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.10.06-03.37.43:330][  0]LogInit: Using OS detected language (en-US).
+[2022.10.06-03.37.43:330][  0]LogInit: Using OS detected locale (en-US).
+[2022.10.06-03.37.43:401][  0]LogInit: Setting process to per monitor DPI aware
+[2022.10.06-03.37.43:594][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.10.06-03.37.43:595][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.10.06-03.37.43:595][  0]LogD3D11RHI: D3D11 adapters:
+[2022.10.06-03.37.44:576][  0]LogD3D11RHI:    0. 'NVIDIA Quadro M500M' (Feature Level 11_0)
+[2022.10.06-03.37.44:576][  0]LogD3D11RHI:       2010/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.10.06-03.37.44:707][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2022.10.06-03.37.44:707][  0]LogD3D11RHI:       128/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.10.06-03.37.44:714][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.10.06-03.37.44:714][  0]LogD3D11RHI:       0/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.10.06-03.37.44:714][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.10.06-03.37.44:728][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.10.06-03.37.44:728][  0]LogD3D11RHI:     GPU DeviceId: 0x137a (for the marketing name, search the web for "GPU Device Id")
+[2022.10.06-03.37.44:733][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro M500M
+[2022.10.06-03.37.44:733][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.10.06-03.37.44:733][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.10.06-03.37.44:733][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2022.10.06-03.37.44:917][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.10.06-03.37.44:917][  0]LogD3D11RHI: Async texture creation enabled
+[2022.10.06-03.37.44:946][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.10.06-03.37.44:951][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.10.06-03.37.45:308][  0]LogInit: Using OS detected language (en-US).
+[2022.10.06-03.37.45:308][  0]LogInit: Using OS detected locale (en-US).
+[2022.10.06-03.37.46:349][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2022.10.06-03.37.46:349][  0]LogInit: Active device profile: [000001A5A32AA6C0][000001A5A289A300 49] WindowsNoEditor
+[2022.10.06-03.37.46:350][  0]LogInit: Profiles: [000001A5A32AA600][000001A5A289BA40 49] Windows, [000001A5A32AA6C0][000001A5A289A300 49] WindowsNoEditor, 
+[2022.10.06-03.37.46:434][  0]LogNetVersion: Platform 1.0.0, NetCL: 0, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3370718275)
+[2022.10.06-03.37.47:057][  0]PlatformStorage: Migrating GlobalInputOverrides
+[2022.10.06-03.37.47:246][  0]PlatformStorage: Verbose: Reading ../../../Platform/Config/ directory structure took 30.943100ms
+[2022.10.06-03.37.47:246][  0]PlatformStorage: Verbose: Lambda: OnComplete took 0.011300ms
+[2022.10.06-03.37.47:246][  0]PlatformStorage: Verbose: Lambda: OnComplete took 0.006600ms
+[2022.10.06-03.37.47:286][  0]LogEngine: Initializing Engine...
+[2022.10.06-03.37.47:581][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.10.06-03.37.47:890][  0]LogInit: FAudioDevice initialized.
+[2022.10.06-03.37.47:891][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.10.06-03.37.47:891][  0]LogInit: Texture streaming: Enabled
+[2022.10.06-03.37.49:114][  0]PlatformVoiceChat: Finished creating VoiceClient.
+[2022.10.06-03.37.49:133][  0]PlatformVoiceChat: VoiceClient initialized.
+[2022.10.06-03.37.49:133][  0]PlatformInit: Display: Platform Build Version: 1.0.267-prod-s
+[2022.10.06-03.37.49:481][  0]LogInit: Display: Game Engine Initialized.
+[2022.10.06-03.37.49:492][  0]LogInit: Display: Starting Game.
+[2022.10.06-03.37.49:492][  0]LogNet: Browse: /Game/Levels/Main?Name=Player
+[2022.10.06-03.37.49:677][  0]LogLoad: LoadMap: /Game/Levels/Main?Name=Player
+[2022.10.06-03.37.49:677][  0]LogWorld: BeginTearingDown for /Temp/Untitled_20
+[2022.10.06-03.37.49:678][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.10.06-03.37.50:075][  0]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.06-03.37.50:076][  0]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2022.10.06-10.37.50
+[2022.10.06-03.37.50:076][  0]LogWorld: Bringing up level for play took: 0.000341
+[2022.10.06-03.37.50:532][  0]LogLoad: Took 0.854803 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.06-03.37.50:533][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.10.06-03.37.50:533][  0]LogLoad: (Engine Initialization) Total time: 10.19 seconds
+[2022.10.06-03.38.04:201][369]LogHttp: Warning: 000001A5ACB1D260: request failed, libcurl error: 35 (SSL connect error)
+[2022.10.06-03.38.04:201][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 0 (Found bundle for host www.coregames.com: 0x1a5a92f0dc0 [can pipeline])
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 1 (Hostname www.coregames.com was found in DNS cache)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 2 (  Trying 20.69.134.17...)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 3 (TCP_NODELAY set)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 4 (Connected to www.coregames.com (20.69.134.17) port 443 (#6))
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 7 (SSL re-using session ID)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 8 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 12 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 14 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 15 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 17 (SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 18 (ALPN, server accepted to use http/1.1)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 19 (old SSL session ID is stale, removing)
+[2022.10.06-03.38.04:202][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 20 (Server certificate:)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 21 ( subject: CN=*.coregames.com)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 22 ( start date: Sep 22 00:05:17 2022 GMT)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 23 ( expire date: Dec 21 00:05:16 2022 GMT)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 24 ( subjectAltName: host "www.coregames.com" matched cert's "*.coregames.com")
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 25 ( issuer: C=US; O=Let's Encrypt; CN=R3)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 26 ( SSL certificate verify ok.)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 27 (Connection #6 to host www.coregames.com left intact)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 28 (Issue another request to this URL: 'https://manticoreprod-ms.azureedge.net/config-client/StreamSourcesDynamicConfig/32F9477569DF52D43319DA1F758B0D5CF3371839.json')
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 29 (Found bundle for host manticoreprod-ms.azureedge.net: 0x1a5a92f1c90 [serially])
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 30 (Hostname manticoreprod-ms.azureedge.net was found in DNS cache)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 31 (  Trying 13.107.227.46...)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 32 (TCP_NODELAY set)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 33 (Connected to manticoreprod-ms.azureedge.net (13.107.227.46) port 443 (#15))
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 34 (ALPN, offering http/1.1)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 35 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 36 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 37 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to manticoreprod-ms.azureedge.net:443 )
+[2022.10.06-03.38.04:203][369]LogHttp: Warning: 000001A5ACB1D260: libcurl info message cache 38 (Closing connection 15)
+[2022.10.06-03.38.04:301][372]LogHttp: Warning: Retry 1 on https://www.coregames.com/api/Config/client/StreamSourcesDynamicConfig/32F9477569DF52D43319DA1F758B0D5CF3371839
+[2022.10.06-03.38.06:989][450]LogHttp: Warning: Success on https://www.coregames.com/api/Config/client/StreamSourcesDynamicConfig/32F9477569DF52D43319DA1F758B0D5CF3371839
+[2022.10.06-03.38.12:206][466]PlatformVoiceChat: Vivox LoginSession State Change: LoginState::LoggingIn
+[2022.10.06-03.38.16:418][593]LogCoreSDK: Error: Failed to recv data from game cluster region eu-west: 0 [http://34.141.177.24:82/api/util/echo]
+[2022.10.06-03.38.18:659][658]LogCoreSDK: Error: Failed to recv data from game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.06-03.38.27:501][136]LogRHI: Error: Present Fail Count 1
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SyncInterval 0
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1920
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1080
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.OutputWindow 00000000002E0B06
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.Windowed true
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2022.10.06-03.38.27:501][136]LogRHI: Error: SwapChainDesc.Flags 2050
+[2022.10.06-03.38.28:688][184]PlatformVoiceChat: Vivox LoginSession State Change: LoginState::LoggedIn
+[2022.10.06-03.38.28:688][184]PlatformVoiceChat: Vivox login success
+[2022.10.06-03.39.02:970][534]LogCoreSDK: Error: Failed to recv data from game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.06-03.39.02:970][534]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.06-03.39.02:970][534]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.06-03.39.02:970][534]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.06-03.39.02:970][534]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.06-03.39.02:970][534]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.06-03.39.02:970][534]LogInit: Display: PreExit Game.
+[2022.10.06-03.39.02:972][534]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.06-03.39.03:006][534]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.06-03.39.03:511][534]LogExit: Preparing to exit.
+[2022.10.06-03.39.03:597][534]LogExit: Game engine shut down
+[2022.10.06-03.39.03:865][534]LogExit: Object subsystem successfully closed.
+[2022.10.06-03.39.03:998][534]LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2022.10.06-03.39.04:042][534]LogD3D11RHI: Shutdown
+[2022.10.06-03.39.04:042][534]LogD3D11RHI: CleanupD3DDevice
+[2022.10.06-03.39.04:059][534]LogExit: Exiting.
+[2022.10.06-03.39.04:070][534]Log file closed, 10/06/22 10:39:04

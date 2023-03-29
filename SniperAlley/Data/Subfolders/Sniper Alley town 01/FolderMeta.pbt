@@ -1,0 +1,59 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "ec33efd31701422b80125dc57e627a18"
+  OwnerAccountId: "2f9f50d588f7468f8ef284c7b5551ba1"
+  OwnerName: "jlouie"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 1031736639489708352
+  value: 9169644734191065415
+}
+AssetIdsOriginalToNew {
+  key: 6122750408686301829
+  value: 10553352038337728036
+}
+AssetIdsOriginalToNew {
+  key: 6495034639795553103
+  value: 5533828281117941586
+}
+AssetIdsOriginalToNew {
+  key: 7067300643598277332
+  value: 6378889443616078446
+}
+AssetIdsOriginalToNew {
+  key: 9040387510603728677
+  value: 8520297428162977721
+}
+AssetIdsOriginalToNew {
+  key: 9507197918291730137
+  value: 9031247439784576720
+}
+AssetIdsOriginalToNew {
+  key: 10606213372273246681
+  value: 5213752533660365406
+}
+AssetIdsOriginalToNew {
+  key: 11646788811031541721
+  value: 11642605781273095565
+}
+AssetIdsOriginalToNew {
+  key: 12243572533016781353
+  value: 1751502574067390674
+}
+AssetIdsOriginalToNew {
+  key: 13072311658198023672
+  value: 9646824036041523941
+}
+AssetIdsOriginalToNew {
+  key: 14980806283276957171
+  value: 7401648582553816582
+}
+AssetIdsOriginalToNew {
+  key: 15716077922418376149
+  value: 1190872243041924580
+}
+AssetIdsOriginalToNew {
+  key: 16918752034765561804
+  value: 2049024062905274875
+}

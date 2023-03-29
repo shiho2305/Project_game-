@@ -1,0 +1,514 @@
+﻿Log file open, 10/05/22 19:29:05
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.26-CL-0
+LogInit: Engine Version: 4.26.2-0+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-0+++UE4+Release-4.26
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 21H2) (), CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): May  9 2022 13:02:31
+LogInit: Compiled with Visual C++: 19.29.30038.01
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -ENV=Prod -LAUNCHER_VERSION="2.2.36.0 (ce0fc589)"
+LogInit: Base Directory: C:/ProgramData/Manticore Games/Core/Platform/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.10.05-12.29.09:465][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2022.10.05-12.29.09:465][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2022.10.05-12.29.09:466][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2022.10.05-12.29.09:466][  0]LogInit: Going up to parent DeviceProfile []
+[2022.10.05-12.29.09:470][  0]LogInit: CPU Page size=4096, Cores=2
+[2022.10.05-12.29.09:470][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.10.05-12.29.09:470][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2022.10.05-12.29.09:470][  0]LogMemory: Process Physical Memory: 103.74 MB used, 103.75 MB peak
+[2022.10.05-12.29.09:470][  0]LogMemory: Process Virtual Memory: 108.20 MB used, 108.20 MB peak
+[2022.10.05-12.29.09:470][  0]LogMemory: Physical Memory: 8559.00 MB used,  7680.38 MB free, 16239.38 MB total
+[2022.10.05-12.29.09:470][  0]LogMemory: Virtual Memory: 134210944.00 MB used,  6786.27 MB free, 134217728.00 MB total
+[2022.10.05-12.29.09:696][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.10.05-12.29.09:704][  0]LogInit: Using OS detected language (en-US).
+[2022.10.05-12.29.09:704][  0]LogInit: Using OS detected locale (en-US).
+[2022.10.05-12.29.09:808][  0]LogInit: Setting process to per monitor DPI aware
+[2022.10.05-12.29.10:104][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.10.05-12.29.10:104][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.10.05-12.29.10:104][  0]LogD3D11RHI: D3D11 adapters:
+[2022.10.05-12.29.11:292][  0]LogD3D11RHI:    0. 'NVIDIA Quadro M500M' (Feature Level 11_0)
+[2022.10.05-12.29.11:292][  0]LogD3D11RHI:       2010/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.10.05-12.29.11:487][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2022.10.05-12.29.11:488][  0]LogD3D11RHI:       128/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.10.05-12.29.11:496][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.10.05-12.29.11:496][  0]LogD3D11RHI:       0/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.10.05-12.29.11:496][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.10.05-12.29.11:509][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.10.05-12.29.11:509][  0]LogD3D11RHI:     GPU DeviceId: 0x137a (for the marketing name, search the web for "GPU Device Id")
+[2022.10.05-12.29.11:513][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro M500M
+[2022.10.05-12.29.11:513][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.10.05-12.29.11:513][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.10.05-12.29.11:513][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2022.10.05-12.29.11:688][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.10.05-12.29.11:689][  0]LogD3D11RHI: Async texture creation enabled
+[2022.10.05-12.29.11:740][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.10.05-12.29.11:752][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.10.05-12.29.12:289][  0]LogInit: Using OS detected language (en-US).
+[2022.10.05-12.29.12:289][  0]LogInit: Using OS detected locale (en-US).
+[2022.10.05-12.29.13:299][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2022.10.05-12.29.13:299][  0]LogInit: Active device profile: [00000270A854D9C0][00000270A7B6A300 49] WindowsNoEditor
+[2022.10.05-12.29.13:299][  0]LogInit: Profiles: [00000270A854D900][00000270A7B6BA40 49] Windows, [00000270A854D9C0][00000270A7B6A300 49] WindowsNoEditor, 
+[2022.10.05-12.29.13:380][  0]LogNetVersion: Platform 1.0.0, NetCL: 0, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3370718275)
+[2022.10.05-12.29.14:098][  0]PlatformStorage: Migrating GlobalInputOverrides
+[2022.10.05-12.29.14:280][  0]PlatformStorage: Verbose: Reading ../../../Platform/Config/ directory structure took 17.770800ms
+[2022.10.05-12.29.14:280][  0]PlatformStorage: Verbose: Lambda: OnComplete took 0.006100ms
+[2022.10.05-12.29.14:280][  0]PlatformStorage: Verbose: Lambda: OnComplete took 0.114400ms
+[2022.10.05-12.29.14:319][  0]LogEngine: Initializing Engine...
+[2022.10.05-12.29.14:596][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.10.05-12.29.14:890][  0]LogInit: FAudioDevice initialized.
+[2022.10.05-12.29.14:891][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.10.05-12.29.14:891][  0]LogInit: Texture streaming: Enabled
+[2022.10.05-12.29.16:018][  0]PlatformVoiceChat: Finished creating VoiceClient.
+[2022.10.05-12.29.16:048][  0]PlatformVoiceChat: VoiceClient initialized.
+[2022.10.05-12.29.16:048][  0]PlatformInit: Display: Platform Build Version: 1.0.267-prod-s
+[2022.10.05-12.29.16:482][  0]LogInit: Display: Game Engine Initialized.
+[2022.10.05-12.29.16:496][  0]LogInit: Display: Starting Game.
+[2022.10.05-12.29.16:496][  0]LogNet: Browse: /Game/Levels/Main?Name=Player
+[2022.10.05-12.29.16:658][  0]LogLoad: LoadMap: /Game/Levels/Main?Name=Player
+[2022.10.05-12.29.16:658][  0]LogWorld: BeginTearingDown for /Temp/Untitled_20
+[2022.10.05-12.29.16:661][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.29.17:078][  0]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.29.17:079][  0]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 60) at 2022.10.05-19.29.17
+[2022.10.05-12.29.17:079][  0]LogWorld: Bringing up level for play took: 0.000443
+[2022.10.05-12.29.17:534][  0]LogLoad: Took 0.875339 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.29.17:534][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.10.05-12.29.17:534][  0]LogLoad: (Engine Initialization) Total time: 13.08 seconds
+[2022.10.05-12.29.26:074][122]PlatformVoiceChat: Vivox LoginSession State Change: LoginState::LoggingIn
+[2022.10.05-12.29.32:207][392]LogNet: Browse: 35.192.101.54:56446/Game/Levels/PlayMap?ClientVersion=1.0.267-prod-s?ContentVersion=1.0.205?GameSessionId=779B27804CA34C3ECEAD61BE6E04457C?GameSessionIdParent=?ReservationToken=eyJJZCI6ImQ3ZmU1YmZiNGY1YzQwZTM5N2JmNjE4ZGU2YTZmNTVlIiwiQWNjb3VudElkIjoiZTdkNTEwYjY1NjllNGFhN2IzMGNkNmY2OTg5YjNiMjEiLCJVc2VyTmFtZSI6Imxpbmhxa2hlIiwiR2xvYmFsUG9kSWQiOiI5OWI3M2EwOS1hYzdkLTQ2MmMtOGQ0ZS01MTdkYzA5NTA0OTYiLCJFeHBpcmVzQXQiOiI2MzgwMDU2OTkxNTQzODMyOTciLCJQcm9maWxlUGljdHVyZUlkIjoiNDdjNTEzYzM1ZDE3NDZjZmI3YzUzNjdkNTMwYTVjOTAifQ==.bcj9G7dvIr1+g7d/sS0eVNae9HnL7jW0BYsyp+c1J3RtRDU/rvVy3ZU16CTCBkIj577ipqtf8oda8SWdVYx6X5zDO968/TEVSBbgq4nl5/LuvKuc0QjigeJdEUBDJfof+PxldKoG/ZGX6QEaERoJjsZJY9Tx3YIlehPErdrkSagVeJKgGNbfwCAf+Ef7ITWQ1brTZBqMuiSGDvg8Pq6RbvlloeLTeKvdPaNPEN7At3RQ6AnIzVQJSuHXncJ1d7Ax23gxQ9Qo1D+/ZQgMRIHytY2Ol+A8jCvi+DNp7TbIj/LV5o8r0duE7Son+BsWTF3Hl9ovueBFgE1BVQI7FmaIXw==
+[2022.10.05-12.29.32:208][392]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.10.05-12.29.32:208][392]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.10.05-12.29.32:208][392]LogNet: Game client on port 56446, rate 1000000
+[2022.10.05-12.29.35:916][585]PlatformVoiceChat: Vivox LoginSession State Change: LoginState::LoggedIn
+[2022.10.05-12.29.35:916][585]PlatformVoiceChat: Vivox login success
+[2022.10.05-12.29.47:611][192]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 0 [http://34.141.177.24:82/api/util/echo]
+[2022.10.05-12.29.52:234][428]LogNet: Warning: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.02, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_0, Driver: PendingNetDriver CoreNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.29.52:235][428]LogNet: Error: UEngine::BroadcastNetworkFailure: FailureType = ConnectionTimeout, ErrorString = UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.02, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_0, Driver: PendingNetDriver CoreNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Driver = PendingNetDriver CoreNetDriver_0
+[2022.10.05-12.29.52:235][428]PlatformGameLoader: Error: Failed to connect to host! (ConnectionTimeout:UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.02, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_0, Driver: PendingNetDriver CoreNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID)
+[2022.10.05-12.29.52:236][428]PlatformGameLoader: Error: AbortLoad: Failed to connect to host:
+ConnectionTimeout
+[2022.10.05-12.29.52:249][428]LogNet: Warning: Network Failure: PendingNetDriver[ConnectionTimeout]: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.02, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_0, Driver: PendingNetDriver CoreNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.29.52:249][428]LogNet: NetworkFailure: ConnectionTimeout, Error: 'UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.02, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_0, Driver: PendingNetDriver CoreNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID'
+[2022.10.05-12.29.52:250][428]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_0, Driver: PendingNetDriver CoreNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Channels: 2, Time: 2022.10.05-12.29.52
+[2022.10.05-12.29.52:251][428]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_0, Driver: PendingNetDriver CoreNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.29.52:251][428]LogNet: DestroyNamedNetDriver CoreNetDriver_0 [PendingNetDriver]
+[2022.10.05-12.29.52:252][428]LogExit: PendingNetDriver CoreNetDriver_0 shut down
+[2022.10.05-12.29.52:263][429]LogNet: Browse: /Game/Levels/Main?closed
+[2022.10.05-12.29.52:263][429]LogNet: Connection failed; returning to Entry
+[2022.10.05-12.29.52:264][429]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2022.10.05-12.29.52:265][429]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.29.52:270][429]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.29.52:318][429]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: None, Driver: PendingNetDriver None, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.29.52:319][429]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: None, Driver: PendingNetDriver None, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID bPendingDestroy=0 
+[2022.10.05-12.29.52:338][429]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.29.52:339][429]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 0) at 2022.10.05-19.29.52
+[2022.10.05-12.29.52:340][429]LogWorld: Bringing up level for play took: 0.001084
+[2022.10.05-12.29.52:342][429]LogLoad: Took 0.077897 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.29.53:941][477]LogNet: Browse: /Game/Levels/Main?closed
+[2022.10.05-12.29.53:941][477]LogNet: Connection failed; returning to Entry
+[2022.10.05-12.29.53:941][477]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2022.10.05-12.29.53:941][477]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.29.53:942][477]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.29.53:987][477]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.29.53:987][477]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2022.10.05-19.29.53
+[2022.10.05-12.29.53:988][477]LogWorld: Bringing up level for play took: 0.000509
+[2022.10.05-12.29.53:991][477]LogLoad: Took 0.049304 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.29.54:015][478]LogNet: Browse: /Game/Levels/FrontEnd
+[2022.10.05-12.29.54:015][478]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2022.10.05-12.29.54:015][478]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.29.54:016][478]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.29.54:109][478]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2022.10.05-12.29.54:126][478]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2022.10.05-19.29.54
+[2022.10.05-12.29.54:127][478]LogWorld: Bringing up level for play took: 0.000792
+[2022.10.05-12.29.54:131][478]LogLoad: Took 0.115175 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2022.10.05-12.29.59:346][565]LogNet: Browse: /Game/Levels/Main
+[2022.10.05-12.29.59:346][565]LogLoad: LoadMap: /Game/Levels/Main
+[2022.10.05-12.29.59:346][565]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2022.10.05-12.29.59:358][565]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.29.59:359][565]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.29.59:359][565]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.29.59:590][565]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.29.59:591][565]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2022.10.05-19.29.59
+[2022.10.05-12.29.59:592][565]LogWorld: Bringing up level for play took: 0.000532
+[2022.10.05-12.29.59:594][565]LogLoad: Took 0.247781 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.30.01:444][642]LogNet: Browse: 35.192.101.54:56446/Game/Levels/PlayMap?ClientVersion=1.0.267-prod-s?ContentVersion=1.0.205?GameSessionId=FF83891D4DF5AD5151E26BB12AE29031?GameSessionIdParent=779B27804CA34C3ECEAD61BE6E04457C?ReservationToken=eyJJZCI6ImQ3ZmU1YmZiNGY1YzQwZTM5N2JmNjE4ZGU2YTZmNTVlIiwiQWNjb3VudElkIjoiZTdkNTEwYjY1NjllNGFhN2IzMGNkNmY2OTg5YjNiMjEiLCJVc2VyTmFtZSI6Imxpbmhxa2hlIiwiR2xvYmFsUG9kSWQiOiI5OWI3M2EwOS1hYzdkLTQ2MmMtOGQ0ZS01MTdkYzA5NTA0OTYiLCJFeHBpcmVzQXQiOiI2MzgwMDU2OTkxNTQzODMyOTciLCJQcm9maWxlUGljdHVyZUlkIjoiNDdjNTEzYzM1ZDE3NDZjZmI3YzUzNjdkNTMwYTVjOTAifQ==.bcj9G7dvIr1+g7d/sS0eVNae9HnL7jW0BYsyp+c1J3RtRDU/rvVy3ZU16CTCBkIj577ipqtf8oda8SWdVYx6X5zDO968/TEVSBbgq4nl5/LuvKuc0QjigeJdEUBDJfof+PxldKoG/ZGX6QEaERoJjsZJY9Tx3YIlehPErdrkSagVeJKgGNbfwCAf+Ef7ITWQ1brTZBqMuiSGDvg8Pq6RbvlloeLTeKvdPaNPEN7At3RQ6AnIzVQJSuHXncJ1d7Ax23gxQ9Qo1D+/ZQgMRIHytY2Ol+A8jCvi+DNp7TbIj/LV5o8r0duE7Son+BsWTF3Hl9ovueBFgE1BVQI7FmaIXw==?TransferReason=4
+[2022.10.05-12.30.01:445][642]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.10.05-12.30.01:445][642]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.10.05-12.30.01:445][642]LogNet: Game client on port 56446, rate 1000000
+[2022.10.05-12.30.08:651][  0]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.05-12.30.21:477][655]LogNet: Warning: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.03, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_1, Driver: PendingNetDriver CoreNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.30.21:477][655]LogNet: Error: UEngine::BroadcastNetworkFailure: FailureType = ConnectionTimeout, ErrorString = UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.03, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_1, Driver: PendingNetDriver CoreNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Driver = PendingNetDriver CoreNetDriver_1
+[2022.10.05-12.30.21:477][655]PlatformGameLoader: Error: Failed to connect to host! (ConnectionTimeout:UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.03, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_1, Driver: PendingNetDriver CoreNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID)
+[2022.10.05-12.30.21:477][655]PlatformGameLoader: Error: AbortLoad: Failed to connect to host:
+ConnectionTimeout
+[2022.10.05-12.30.21:487][655]LogNet: Warning: Network Failure: PendingNetDriver[ConnectionTimeout]: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.03, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_1, Driver: PendingNetDriver CoreNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.30.21:487][655]LogNet: NetworkFailure: ConnectionTimeout, Error: 'UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.03, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_1, Driver: PendingNetDriver CoreNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID'
+[2022.10.05-12.30.21:487][655]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_1, Driver: PendingNetDriver CoreNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Channels: 2, Time: 2022.10.05-12.30.21
+[2022.10.05-12.30.21:487][655]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_1, Driver: PendingNetDriver CoreNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.30.21:487][655]LogNet: DestroyNamedNetDriver CoreNetDriver_1 [PendingNetDriver]
+[2022.10.05-12.30.21:487][655]LogExit: PendingNetDriver CoreNetDriver_1 shut down
+[2022.10.05-12.30.21:494][656]LogNet: Browse: /Game/Levels/Main?closed
+[2022.10.05-12.30.21:494][656]LogNet: Connection failed; returning to Entry
+[2022.10.05-12.30.21:494][656]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2022.10.05-12.30.21:494][656]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.30.21:495][656]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.30.21:538][656]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_1, Driver: PendingNetDriver CoreNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.30.21:538][656]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: None, Driver: PendingNetDriver None, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID bPendingDestroy=0 
+[2022.10.05-12.30.21:556][656]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.30.21:558][656]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 0) at 2022.10.05-19.30.21
+[2022.10.05-12.30.21:558][656]LogWorld: Bringing up level for play took: 0.000500
+[2022.10.05-12.30.21:561][656]LogLoad: Took 0.067154 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.30.22:825][694]LogNet: Browse: /Game/Levels/Main?closed
+[2022.10.05-12.30.22:825][694]LogNet: Connection failed; returning to Entry
+[2022.10.05-12.30.22:825][694]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2022.10.05-12.30.22:825][694]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.30.22:826][694]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.30.22:919][694]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.30.22:923][694]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2022.10.05-19.30.22
+[2022.10.05-12.30.22:925][694]LogWorld: Bringing up level for play took: 0.002429
+[2022.10.05-12.30.22:936][694]LogLoad: Took 0.109989 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.30.23:021][695]LogNet: Browse: /Game/Levels/FrontEnd
+[2022.10.05-12.30.23:024][695]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2022.10.05-12.30.23:024][695]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.30.23:026][695]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.30.23:122][695]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2022.10.05-12.30.23:135][695]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2022.10.05-19.30.23
+[2022.10.05-12.30.23:135][695]LogWorld: Bringing up level for play took: 0.000425
+[2022.10.05-12.30.23:138][695]LogLoad: Took 0.113986 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2022.10.05-12.30.29:699][794]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.05-12.30.30:882][811]LogNet: Browse: /Game/Levels/Main
+[2022.10.05-12.30.30:882][811]LogLoad: LoadMap: /Game/Levels/Main
+[2022.10.05-12.30.30:882][811]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2022.10.05-12.30.30:909][811]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.30.30:911][811]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.30.30:911][811]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.30.31:046][811]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.30.31:140][811]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.30.31:142][811]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 60) at 2022.10.05-19.30.31
+[2022.10.05-12.30.31:142][811]LogWorld: Bringing up level for play took: 0.000682
+[2022.10.05-12.30.31:144][811]LogLoad: Took 0.262129 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.30.34:103][924]LogNet: Browse: 35.192.101.54:56446/Game/Levels/PlayMap?ClientVersion=1.0.267-prod-s?ContentVersion=1.0.205?GameSessionId=E91671F84C5DB96246AD4BB6783D8F9D?GameSessionIdParent=FF83891D4DF5AD5151E26BB12AE29031?ReservationToken=eyJJZCI6ImVkYjQ3Yjc3MGJkZjQ1ZWViNjdkNzRlMzlkNDIyZGZmIiwiQWNjb3VudElkIjoiZTdkNTEwYjY1NjllNGFhN2IzMGNkNmY2OTg5YjNiMjEiLCJVc2VyTmFtZSI6Imxpbmhxa2hlIiwiR2xvYmFsUG9kSWQiOiI5OWI3M2EwOS1hYzdkLTQ2MmMtOGQ0ZS01MTdkYzA5NTA0OTYiLCJFeHBpcmVzQXQiOiI2MzgwMDU2OTk3NzM0OTUxODAiLCJQcm9maWxlUGljdHVyZUlkIjoiNDdjNTEzYzM1ZDE3NDZjZmI3YzUzNjdkNTMwYTVjOTAifQ==.l7UrMJUWa8WIlUqW+000+L42g8vcatAZqPs5awzhooqHR12fhJQYqtKiXw5a10P2wHad5SCVo/9J0zhQEIRUpOomK7ERzV90IgeL8h1OVVy6B8rDfYMOmaLqYrJAXB47XirqEUj+YXDerbAC+mJYex590aT6RJ8Uiarg4tJ1ke05pUEEmxi/VTKFNePF9mSPPzPJju5WHcxsKWFPExIOuPR2AeTHU/4nEsIpbJ3Vhsg9IYQzCtkOXdVFi8fPWd11tEib8YQWOotbI736vo8bRb19gUnLWzayLSLPWAKEV45zdTYcbTnT+NfNAvRAOHS7cbs0Z/8afGke9Lkc8/Ye/g==?TransferReason=4
+[2022.10.05-12.30.34:103][924]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.10.05-12.30.34:103][924]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.10.05-12.30.34:104][924]LogNet: Game client on port 56446, rate 1000000
+[2022.10.05-12.30.50:750][763]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.05-12.30.54:130][936]LogNet: Warning: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.03, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_2, Driver: PendingNetDriver CoreNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.30.54:131][936]LogNet: Error: UEngine::BroadcastNetworkFailure: FailureType = ConnectionTimeout, ErrorString = UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.03, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_2, Driver: PendingNetDriver CoreNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Driver = PendingNetDriver CoreNetDriver_2
+[2022.10.05-12.30.54:131][936]PlatformGameLoader: Error: Failed to connect to host! (ConnectionTimeout:UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.03, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_2, Driver: PendingNetDriver CoreNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID)
+[2022.10.05-12.30.54:132][936]PlatformGameLoader: Error: AbortLoad: Failed to connect to host:
+ConnectionTimeout
+[2022.10.05-12.30.54:140][936]LogNet: Warning: Network Failure: PendingNetDriver[ConnectionTimeout]: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.03, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_2, Driver: PendingNetDriver CoreNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.30.54:141][936]LogNet: NetworkFailure: ConnectionTimeout, Error: 'UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.01, Real: 20.01, Good: 20.01, DriverTime: 20.03, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_2, Driver: PendingNetDriver CoreNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID'
+[2022.10.05-12.30.54:141][936]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_2, Driver: PendingNetDriver CoreNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Channels: 2, Time: 2022.10.05-12.30.54
+[2022.10.05-12.30.54:141][936]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_2, Driver: PendingNetDriver CoreNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.30.54:141][936]LogNet: DestroyNamedNetDriver CoreNetDriver_2 [PendingNetDriver]
+[2022.10.05-12.30.54:141][936]LogExit: PendingNetDriver CoreNetDriver_2 shut down
+[2022.10.05-12.30.54:151][937]LogNet: Browse: /Game/Levels/Main?closed
+[2022.10.05-12.30.54:151][937]LogNet: Connection failed; returning to Entry
+[2022.10.05-12.30.54:152][937]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2022.10.05-12.30.54:152][937]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.30.54:154][937]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.30.54:196][937]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_2, Driver: PendingNetDriver CoreNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.30.54:197][937]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: None, Driver: PendingNetDriver None, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID bPendingDestroy=0 
+[2022.10.05-12.30.54:214][937]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.30.54:216][937]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 0) at 2022.10.05-19.30.54
+[2022.10.05-12.30.54:216][937]LogWorld: Bringing up level for play took: 0.000385
+[2022.10.05-12.30.54:219][937]LogLoad: Took 0.066513 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.30.55:444][974]LogNet: Browse: /Game/Levels/Main?closed
+[2022.10.05-12.30.55:444][974]LogNet: Connection failed; returning to Entry
+[2022.10.05-12.30.55:444][974]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2022.10.05-12.30.55:444][974]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.30.55:444][974]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.30.55:493][974]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.30.55:495][974]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2022.10.05-19.30.55
+[2022.10.05-12.30.55:495][974]LogWorld: Bringing up level for play took: 0.000554
+[2022.10.05-12.30.55:500][974]LogLoad: Took 0.055444 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.30.55:531][975]LogNet: Browse: /Game/Levels/FrontEnd
+[2022.10.05-12.30.55:531][975]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2022.10.05-12.30.55:531][975]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.30.55:532][975]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.30.55:650][975]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2022.10.05-12.30.55:674][975]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2022.10.05-19.30.55
+[2022.10.05-12.30.55:675][975]LogWorld: Bringing up level for play took: 0.000876
+[2022.10.05-12.30.55:680][975]LogLoad: Took 0.148808 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2022.10.05-12.31.11:794][268]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.05-12.31.32:833][657]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.05-12.31.46:369][901]LogNet: Browse: /Game/Levels/Main
+[2022.10.05-12.31.46:369][901]LogLoad: LoadMap: /Game/Levels/Main
+[2022.10.05-12.31.46:369][901]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2022.10.05-12.31.46:379][901]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.31.46:379][901]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.31.46:379][901]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.31.46:638][901]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.31.46:639][901]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2022.10.05-19.31.46
+[2022.10.05-12.31.46:639][901]LogWorld: Bringing up level for play took: 0.000549
+[2022.10.05-12.31.46:644][901]LogLoad: Took 0.274332 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.31.48:043][962]LogNet: Browse: /Game/Levels/CreateMap?ClientVersion=1.0.267-prod-s?listen
+[2022.10.05-12.31.48:043][962]LogLoad: LoadMap: /Game/Levels/CreateMap?ClientVersion=1.0.267-prod-s?listen
+[2022.10.05-12.31.48:043][962]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.31.48:044][962]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.31.48:374][962]LogLoad: Game class is 'bp_CreateGameMode_C'
+[2022.10.05-12.31.48:374][962]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.10.05-12.31.48:374][962]LogNet: Created socket for bind address: 0.0.0.0 on port 7777
+[2022.10.05-12.31.48:374][962]LogNet: GameNetDriver CoreNetDriver_3 IpNetDriver listening on port 7777
+[2022.10.05-12.31.48:382][962]LogWorld: Bringing World /Game/Levels/CreateMap.CreateMap up for play (max tick rate 0) at 2022.10.05-19.31.48
+[2022.10.05-12.31.48:389][962]LogWorld: Bringing up level for play took: 0.014658
+[2022.10.05-12.31.49:121][962]LogLoad: Took 1.077885 seconds to LoadMap(/Game/Levels/CreateMap)
+[2022.10.05-12.32.07:081][964]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 16.91, Realtime: 16.91. CoreNetDriver_3
+[2022.10.05-12.32.23:876][198]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.05-12.32.44:906][559]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.05-12.32.48:038][637]LogNet: Browse: /Game/Levels/Main?closed
+[2022.10.05-12.32.48:038][637]LogNet: Connection failed; returning to Entry
+[2022.10.05-12.32.48:038][637]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2022.10.05-12.32.48:038][637]LogWorld: BeginTearingDown for /Game/Levels/CreateMap
+[2022.10.05-12.32.48:039][637]LogNet: World NetDriver shutdown CoreNetDriver_3 [GameNetDriver]
+[2022.10.05-12.32.48:039][637]LogNet: DestroyNamedNetDriver CoreNetDriver_3 [GameNetDriver]
+[2022.10.05-12.32.48:039][637]LogExit: GameNetDriver CoreNetDriver_3 shut down
+[2022.10.05-12.32.48:213][637]LogWorld: UWorld::CleanupWorld for CreateMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.32.48:287][637]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.32.48:287][637]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.32.48:288][637]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.32.48:401][637]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.32.48:403][637]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 60) at 2022.10.05-19.32.48
+[2022.10.05-12.32.48:403][637]LogWorld: Bringing up level for play took: 0.000444
+[2022.10.05-12.32.49:006][637]LogLoad: Took 0.967812 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.32.49:055][638]LogNet: Browse: /Game/Levels/FrontEnd
+[2022.10.05-12.32.49:056][638]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2022.10.05-12.32.49:056][638]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.32.49:057][638]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.32.49:181][638]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2022.10.05-12.32.49:203][638]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2022.10.05-19.32.49
+[2022.10.05-12.32.49:204][638]LogWorld: Bringing up level for play took: 0.000683
+[2022.10.05-12.32.49:208][638]LogLoad: Took 0.152088 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2022.10.05-12.32.53:131][709]LogNet: Browse: /Game/Levels/Main
+[2022.10.05-12.32.53:131][709]LogLoad: LoadMap: /Game/Levels/Main
+[2022.10.05-12.32.53:131][709]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2022.10.05-12.32.53:139][709]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.32.53:140][709]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.32.53:140][709]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.32.53:278][709]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.32.53:280][709]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2022.10.05-19.32.53
+[2022.10.05-12.32.53:280][709]LogWorld: Bringing up level for play took: 0.000543
+[2022.10.05-12.32.53:285][709]LogLoad: Took 0.153105 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.32.57:276][892]LogNet: Browse: 35.192.101.54:56446/Game/Levels/PlayMap?ClientVersion=1.0.267-prod-s?ContentVersion=1.0.205?GameSessionId=340101FA4280AF4D8823959EDA0E843A?GameSessionIdParent=E91671F84C5DB96246AD4BB6783D8F9D?ReservationToken=eyJJZCI6IjJlNjA3MjUwMDMyYjQyNmRhNTY1ZTJlNDc5ZTVlZjczIiwiQWNjb3VudElkIjoiZTdkNTEwYjY1NjllNGFhN2IzMGNkNmY2OTg5YjNiMjEiLCJVc2VyTmFtZSI6Imxpbmhxa2hlIiwiR2xvYmFsUG9kSWQiOiI5OWI3M2EwOS1hYzdkLTQ2MmMtOGQ0ZS01MTdkYzA5NTA0OTYiLCJFeHBpcmVzQXQiOiI2MzgwMDU3MDEyMDQ0NTgzMzMiLCJQcm9maWxlUGljdHVyZUlkIjoiNDdjNTEzYzM1ZDE3NDZjZmI3YzUzNjdkNTMwYTVjOTAifQ==.h9k0NU+bbz/TaLZ57OzEoDG/10PMLiVJmdgIwla5FvmXhvJ/r4WuSUjQd6O80QSQ3sQKexR9xDC+LF2RzrnawGdY0BfYpBR6F2VRszntqJa8PYrMk7eqlFy5X+2fQJDK8MqVbTo2SzAiKqmzXu95UOATbYtG6EVgNooVJz/PDzhcAkJPF5XQkROFj/rafOdj0uWpKhcf/Lp4hJxVkFAws9NbgimAtM73GGOcBC/iseZVCDenWmlBJ0l24T8rGwYTWiKU0A5GRzGb8Y9gBYNAPD6+tWDJSJc+c3V7F4o9i8EtYZJt/XAe7AETumegIkEDyITz/TxNbtHDryh3M/8gJQ==?TransferReason=4
+[2022.10.05-12.32.57:277][892]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.10.05-12.32.57:277][892]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.10.05-12.32.57:277][892]LogNet: Game client on port 56446, rate 1000000
+[2022.10.05-12.33.05:932][332]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.05-12.33.17:317][915]LogNet: Warning: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.02, Real: 20.02, Good: 20.02, DriverTime: 20.04, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_3, Driver: PendingNetDriver CoreNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.33.17:317][915]LogNet: Error: UEngine::BroadcastNetworkFailure: FailureType = ConnectionTimeout, ErrorString = UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.02, Real: 20.02, Good: 20.02, DriverTime: 20.04, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_3, Driver: PendingNetDriver CoreNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Driver = PendingNetDriver CoreNetDriver_4
+[2022.10.05-12.33.17:318][915]PlatformGameLoader: Error: Failed to connect to host! (ConnectionTimeout:UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.02, Real: 20.02, Good: 20.02, DriverTime: 20.04, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_3, Driver: PendingNetDriver CoreNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID)
+[2022.10.05-12.33.17:318][915]PlatformGameLoader: Error: AbortLoad: Failed to connect to host:
+ConnectionTimeout
+[2022.10.05-12.33.17:326][915]LogNet: Warning: Network Failure: PendingNetDriver[ConnectionTimeout]: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.02, Real: 20.02, Good: 20.02, DriverTime: 20.04, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_3, Driver: PendingNetDriver CoreNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.33.17:326][915]LogNet: NetworkFailure: ConnectionTimeout, Error: 'UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.02, Real: 20.02, Good: 20.02, DriverTime: 20.04, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_3, Driver: PendingNetDriver CoreNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID'
+[2022.10.05-12.33.17:326][915]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_3, Driver: PendingNetDriver CoreNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Channels: 2, Time: 2022.10.05-12.33.17
+[2022.10.05-12.33.17:326][915]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_3, Driver: PendingNetDriver CoreNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.33.17:326][915]LogNet: DestroyNamedNetDriver CoreNetDriver_4 [PendingNetDriver]
+[2022.10.05-12.33.17:326][915]LogExit: PendingNetDriver CoreNetDriver_4 shut down
+[2022.10.05-12.33.17:335][916]LogNet: Browse: /Game/Levels/Main?closed
+[2022.10.05-12.33.17:336][916]LogNet: Connection failed; returning to Entry
+[2022.10.05-12.33.17:337][916]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2022.10.05-12.33.17:337][916]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.33.17:339][916]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.33.17:418][916]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: CoreConnection_3, Driver: PendingNetDriver CoreNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.33.17:421][916]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 35.192.101.54:56446, Name: None, Driver: PendingNetDriver None, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID bPendingDestroy=0 
+[2022.10.05-12.33.17:465][916]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.33.17:467][916]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 0) at 2022.10.05-19.33.17
+[2022.10.05-12.33.17:467][916]LogWorld: Bringing up level for play took: 0.000534
+[2022.10.05-12.33.17:472][916]LogLoad: Took 0.134909 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.33.23:321][ 90]LogNet: Browse: /Game/Levels/Main?closed
+[2022.10.05-12.33.23:321][ 90]LogNet: Connection failed; returning to Entry
+[2022.10.05-12.33.23:322][ 90]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2022.10.05-12.33.23:322][ 90]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.33.23:323][ 90]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.33.23:378][ 90]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.33.23:379][ 90]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2022.10.05-19.33.23
+[2022.10.05-12.33.23:379][ 90]LogWorld: Bringing up level for play took: 0.000568
+[2022.10.05-12.33.23:383][ 90]LogLoad: Took 0.060635 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.33.23:418][ 91]LogNet: Browse: /Game/Levels/FrontEnd
+[2022.10.05-12.33.23:418][ 91]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2022.10.05-12.33.23:419][ 91]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.33.23:422][ 91]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.33.23:530][ 91]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2022.10.05-12.33.23:547][ 91]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2022.10.05-19.33.23
+[2022.10.05-12.33.23:547][ 91]LogWorld: Bringing up level for play took: 0.000676
+[2022.10.05-12.33.23:550][ 91]LogLoad: Took 0.131963 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2022.10.05-12.33.26:987][117]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.05-12.33.33:016][226]LogNet: Browse: /Game/Levels/Main
+[2022.10.05-12.33.33:017][226]LogLoad: LoadMap: /Game/Levels/Main
+[2022.10.05-12.33.33:017][226]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2022.10.05-12.33.33:031][226]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.33.33:032][226]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.33.33:032][226]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.33.33:218][226]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.33.33:219][226]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2022.10.05-19.33.33
+[2022.10.05-12.33.33:219][226]LogWorld: Bringing up level for play took: 0.000459
+[2022.10.05-12.33.33:222][226]LogLoad: Took 0.206141 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.33.44:446][662]LogNet: Browse: 35.192.101.54:57098/Game/Levels/PlayMap?ClientVersion=1.0.267-prod-s?ContentVersion=1.0.33?GameSessionId=FAB715D141ABC458FE3DACB9D631E60D?GameSessionIdParent=340101FA4280AF4D8823959EDA0E843A?ReservationToken=eyJJZCI6IjliYzQ2YmI1ZDg0NTQ5YTZhZmY0MjFhMWUwYThmM2VkIiwiQWNjb3VudElkIjoiZTdkNTEwYjY1NjllNGFhN2IzMGNkNmY2OTg5YjNiMjEiLCJVc2VyTmFtZSI6Imxpbmhxa2hlIiwiR2xvYmFsUG9kSWQiOiIwMWY2YjlkMS0wNmY3LTQ4NDctYmQ2MS00MjBkZWU0OTJiNDciLCJFeHBpcmVzQXQiOiI2MzgwMDU3MDE2NzU0NzE5NzciLCJQcm9maWxlUGljdHVyZUlkIjoiNDdjNTEzYzM1ZDE3NDZjZmI3YzUzNjdkNTMwYTVjOTAifQ==.iwFvpNOUGPAKiVlNxXCYDc+F9aXHTlN9Xi17638ZGVm/+3tWahacfcNBln+DAqRNkuDHEZ6CdsIE9Dh4HSAU49WjW2fQhdx605IiP8L9dGuSe/XvYwsmm4ek9Vd6TTbTcq07IYbbBtW0TrwOEaDEEl/SGOw2WeMpasmEQUHzf+SOdWpcX6/BVhZFD9sQ/XcJtajzyfBTPr1OS9wai9ExryEKsjk8/DlwrWdNbfKrJe66ZlTt8VgIa3cuIwl4PXfcSl1bQK2CV8YqGDAA23qYLXc0NLoOJ7xlcyDQ9od1ymLJyz1/ZQLG5OkmSSlMTSuA+yNmdJqjmtqO/h+t6XCSeQ==?TransferReason=4
+[2022.10.05-12.33.44:446][662]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.10.05-12.33.44:447][662]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.10.05-12.33.44:447][662]LogNet: Game client on port 57098, rate 1000000
+[2022.10.05-12.33.48:044][846]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.05-12.34.04:780][626]LogNet: Warning: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.00, Real: 20.01, Good: 20.01, DriverTime: 20.33, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:57098, Name: CoreConnection_4, Driver: PendingNetDriver CoreNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.34.04:780][626]LogNet: Error: UEngine::BroadcastNetworkFailure: FailureType = ConnectionTimeout, ErrorString = UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.00, Real: 20.01, Good: 20.01, DriverTime: 20.33, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:57098, Name: CoreConnection_4, Driver: PendingNetDriver CoreNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Driver = PendingNetDriver CoreNetDriver_5
+[2022.10.05-12.34.04:781][626]PlatformGameLoader: Error: Failed to connect to host! (ConnectionTimeout:UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.00, Real: 20.01, Good: 20.01, DriverTime: 20.33, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:57098, Name: CoreConnection_4, Driver: PendingNetDriver CoreNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID)
+[2022.10.05-12.34.04:781][626]PlatformGameLoader: Error: AbortLoad: Failed to connect to host:
+ConnectionTimeout
+[2022.10.05-12.34.04:784][626]LogNet: Warning: Network Failure: PendingNetDriver[ConnectionTimeout]: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.00, Real: 20.01, Good: 20.01, DriverTime: 20.33, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:57098, Name: CoreConnection_4, Driver: PendingNetDriver CoreNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.34.04:784][626]LogNet: NetworkFailure: ConnectionTimeout, Error: 'UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 20.00, Real: 20.01, Good: 20.01, DriverTime: 20.33, Threshold: 20.00, [UNetConnection] RemoteAddr: 35.192.101.54:57098, Name: CoreConnection_4, Driver: PendingNetDriver CoreNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID'
+[2022.10.05-12.34.04:785][626]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 35.192.101.54:57098, Name: CoreConnection_4, Driver: PendingNetDriver CoreNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Channels: 2, Time: 2022.10.05-12.34.04
+[2022.10.05-12.34.04:785][626]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 35.192.101.54:57098, Name: CoreConnection_4, Driver: PendingNetDriver CoreNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.34.04:785][626]LogNet: DestroyNamedNetDriver CoreNetDriver_5 [PendingNetDriver]
+[2022.10.05-12.34.04:785][626]LogExit: PendingNetDriver CoreNetDriver_5 shut down
+[2022.10.05-12.34.04:797][627]LogNet: Browse: /Game/Levels/Main?closed
+[2022.10.05-12.34.04:797][627]LogNet: Connection failed; returning to Entry
+[2022.10.05-12.34.04:798][627]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2022.10.05-12.34.04:798][627]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.34.04:800][627]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.34.04:888][627]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 35.192.101.54:57098, Name: CoreConnection_4, Driver: PendingNetDriver CoreNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.05-12.34.04:932][627]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 35.192.101.54:57098, Name: None, Driver: PendingNetDriver None, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID bPendingDestroy=0 
+[2022.10.05-12.34.05:027][627]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.34.05:027][627]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 0) at 2022.10.05-19.34.05
+[2022.10.05-12.34.05:027][627]LogWorld: Bringing up level for play took: 0.000477
+[2022.10.05-12.34.05:031][627]LogLoad: Took 0.232119 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.34.09:116][750]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.05-12.34.53:899][ 45]LogRHI: Error: Present Fail Count 1
+[2022.10.05-12.34.53:899][ 45]LogRHI: Error: SyncInterval 0
+[2022.10.05-12.34.53:899][ 45]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1920
+[2022.10.05-12.34.53:899][ 45]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1080
+[2022.10.05-12.34.53:899][ 45]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2022.10.05-12.34.53:899][ 45]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2022.10.05-12.34.53:899][ 45]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2022.10.05-12.34.53:899][ 45]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2022.10.05-12.34.53:899][ 45]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2022.10.05-12.34.53:901][ 45]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2022.10.05-12.34.53:901][ 45]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2022.10.05-12.34.53:901][ 45]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2022.10.05-12.34.53:901][ 45]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2022.10.05-12.34.53:901][ 45]LogRHI: Error: SwapChainDesc.OutputWindow 00000000000D0B5E
+[2022.10.05-12.34.53:901][ 45]LogRHI: Error: SwapChainDesc.Windowed true
+[2022.10.05-12.34.53:901][ 45]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2022.10.05-12.34.53:901][ 45]LogRHI: Error: SwapChainDesc.Flags 2050
+[2022.10.05-12.34.55:736][ 88]LogNet: Browse: /Game/Levels/Main?closed
+[2022.10.05-12.34.55:736][ 88]LogNet: Connection failed; returning to Entry
+[2022.10.05-12.34.55:737][ 88]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2022.10.05-12.34.55:737][ 88]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.34.55:738][ 88]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.34.55:816][ 88]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.05-12.34.55:817][ 88]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2022.10.05-19.34.55
+[2022.10.05-12.34.55:818][ 88]LogWorld: Bringing up level for play took: 0.000591
+[2022.10.05-12.34.55:822][ 88]LogLoad: Took 0.085503 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.05-12.34.55:867][ 89]LogNet: Browse: /Game/Levels/FrontEnd
+[2022.10.05-12.34.55:868][ 89]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2022.10.05-12.34.55:868][ 89]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.05-12.34.55:869][ 89]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.34.56:308][ 89]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2022.10.05-12.34.56:340][ 89]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2022.10.05-19.34.56
+[2022.10.05-12.34.56:340][ 89]LogWorld: Bringing up level for play took: 0.000624
+[2022.10.05-12.34.56:344][ 89]LogLoad: Took 0.476529 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2022.10.05-12.35.00:188][145]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.05-12.35.10:082][309]LogRHI: Error: Present Fail Count 1
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SyncInterval 0
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1920
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1080
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.OutputWindow 00000000000D0B5E
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.Windowed true
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2022.10.05-12.35.10:082][309]LogRHI: Error: SwapChainDesc.Flags 2050
+[2022.10.05-12.35.21:398][506]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.05-12.35.42:447][882]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.05-12.36.03:479][254]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.05-12.36.24:520][622]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.05-12.36.45:746][977]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.05-12.37.37:038][843]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.05-12.37.57:809][180]LogRHI: Error: Present Fail Count 1
+[2022.10.05-12.37.57:809][180]LogRHI: Error: SyncInterval 0
+[2022.10.05-12.37.57:809][180]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1920
+[2022.10.05-12.37.57:809][180]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1080
+[2022.10.05-12.37.57:809][180]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2022.10.05-12.37.57:809][180]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2022.10.05-12.37.57:809][180]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2022.10.05-12.37.57:809][180]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2022.10.05-12.37.57:809][180]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2022.10.05-12.37.57:809][180]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2022.10.05-12.37.57:810][180]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2022.10.05-12.37.57:810][180]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2022.10.05-12.37.57:810][180]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2022.10.05-12.37.57:810][180]LogRHI: Error: SwapChainDesc.OutputWindow 00000000000D0B5E
+[2022.10.05-12.37.57:810][180]LogRHI: Error: SwapChainDesc.Windowed true
+[2022.10.05-12.37.57:810][180]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2022.10.05-12.37.57:810][180]LogRHI: Error: SwapChainDesc.Flags 2050
+[2022.10.05-12.37.58:086][186]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.05-12.38.06:858][326]LogRHI: Error: Present Fail Count 1
+[2022.10.05-12.38.06:858][326]LogRHI: Error: SyncInterval 0
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1920
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1080
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.OutputWindow 00000000000D0B5E
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.Windowed true
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2022.10.05-12.38.06:859][326]LogRHI: Error: SwapChainDesc.Flags 2050
+[2022.10.05-12.38.19:358][521]LogCoreSDK: Error: Failed to connect to game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.05-12.38.28:413][673]Closing by request
+[2022.10.05-12.38.28:413][673]LogExit: RequestExit(0, 0, 0000000005C33E15)
+[2022.10.05-12.38.28:413][673]LogEngine: All Windows Closed
+[2022.10.05-12.38.28:413][673]LogExit: RequestExit(0, 0, 0000000005C457EC)
+[2022.10.05-12.38.28:471][674]LogInit: Display: PreExit Game.
+[2022.10.05-12.38.28:474][674]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2022.10.05-12.38.28:819][674]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.38.28:820][674]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.38.28:820][674]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-12.38.29:539][674]LogExit: Preparing to exit.
+[2022.10.05-12.38.29:783][674]LogExit: Game engine shut down
+[2022.10.05-12.38.33:392][674]LogExit: Object subsystem successfully closed.
+[2022.10.05-12.39.22:828][674]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.05-12.39.22:828][674]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.05-12.39.22:828][674]LogCoreSDK: Error: Failed to connect to game cluster region us-central: 9 [http://34.132.28.53:82/api/util/echo]
+[2022.10.05-12.39.22:828][674]LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2022.10.05-12.39.22:922][674]LogD3D11RHI: Shutdown
+[2022.10.05-12.39.22:923][674]LogD3D11RHI: CleanupD3DDevice
+[2022.10.05-12.39.23:050][674]LogExit: Exiting.
+[2022.10.05-12.39.23:059][674]Log file closed, 10/05/22 19:39:23

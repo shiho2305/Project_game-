@@ -1,0 +1,391 @@
+﻿Log file open, 10/03/22 23:42:41
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.26-CL-0
+LogInit: Engine Version: 4.26.2-0+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-0+++UE4+Release-4.26
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 21H2) (), CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): May  9 2022 13:02:31
+LogInit: Compiled with Visual C++: 19.29.30038.01
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -ENV=Prod -LAUNCHER_VERSION="2.2.36.0 (ce0fc589)"
+LogInit: Base Directory: C:/ProgramData/Manticore Games/Core/Platform/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.10.03-16.42.44:110][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2022.10.03-16.42.44:110][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2022.10.03-16.42.44:110][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2022.10.03-16.42.44:110][  0]LogInit: Going up to parent DeviceProfile []
+[2022.10.03-16.42.44:110][  0]LogInit: CPU Page size=4096, Cores=2
+[2022.10.03-16.42.44:110][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.10.03-16.42.44:110][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2022.10.03-16.42.44:110][  0]LogMemory: Process Physical Memory: 103.76 MB used, 103.76 MB peak
+[2022.10.03-16.42.44:110][  0]LogMemory: Process Virtual Memory: 108.20 MB used, 108.20 MB peak
+[2022.10.03-16.42.44:110][  0]LogMemory: Physical Memory: 7869.74 MB used,  8369.63 MB free, 16239.38 MB total
+[2022.10.03-16.42.44:110][  0]LogMemory: Virtual Memory: 134210240.00 MB used,  7490.82 MB free, 134217728.00 MB total
+[2022.10.03-16.42.44:267][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.10.03-16.42.44:274][  0]LogInit: Using OS detected language (en-US).
+[2022.10.03-16.42.44:274][  0]LogInit: Using OS detected locale (en-US).
+[2022.10.03-16.42.44:336][  0]LogInit: Setting process to per monitor DPI aware
+[2022.10.03-16.42.44:549][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.10.03-16.42.44:549][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.10.03-16.42.44:549][  0]LogD3D11RHI: D3D11 adapters:
+[2022.10.03-16.42.45:643][  0]LogD3D11RHI:    0. 'NVIDIA Quadro M500M' (Feature Level 11_0)
+[2022.10.03-16.42.45:643][  0]LogD3D11RHI:       2010/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.10.03-16.42.45:820][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2022.10.03-16.42.45:820][  0]LogD3D11RHI:       128/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.10.03-16.42.45:828][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.10.03-16.42.45:829][  0]LogD3D11RHI:       0/0/8119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.10.03-16.42.45:829][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.10.03-16.42.45:840][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.10.03-16.42.45:840][  0]LogD3D11RHI:     GPU DeviceId: 0x137a (for the marketing name, search the web for "GPU Device Id")
+[2022.10.03-16.42.45:844][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro M500M
+[2022.10.03-16.42.45:844][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.10.03-16.42.45:844][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.10.03-16.42.45:844][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2022.10.03-16.42.46:016][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.10.03-16.42.46:017][  0]LogD3D11RHI: Async texture creation enabled
+[2022.10.03-16.42.46:051][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.10.03-16.42.46:059][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.10.03-16.42.46:468][  0]LogInit: Using OS detected language (en-US).
+[2022.10.03-16.42.46:468][  0]LogInit: Using OS detected locale (en-US).
+[2022.10.03-16.42.47:461][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2022.10.03-16.42.47:461][  0]LogInit: Active device profile: [000001F6CF24A6C0][000001F6CE84A300 49] WindowsNoEditor
+[2022.10.03-16.42.47:461][  0]LogInit: Profiles: [000001F6CF24A600][000001F6CE84BA40 49] Windows, [000001F6CF24A6C0][000001F6CE84A300 49] WindowsNoEditor, 
+[2022.10.03-16.42.47:542][  0]LogNetVersion: Platform 1.0.0, NetCL: 0, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3370718275)
+[2022.10.03-16.42.48:337][  0]PlatformStorage: Migrating GlobalInputOverrides
+[2022.10.03-16.42.48:566][  0]PlatformStorage: Verbose: Reading ../../../Platform/Config/ directory structure took 26.757400ms
+[2022.10.03-16.42.48:566][  0]PlatformStorage: Verbose: Lambda: OnComplete took 0.008800ms
+[2022.10.03-16.42.48:566][  0]PlatformStorage: Verbose: Lambda: OnComplete took 0.006200ms
+[2022.10.03-16.42.48:612][  0]LogEngine: Initializing Engine...
+[2022.10.03-16.42.48:964][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.10.03-16.42.49:118][  0]LogInit: FAudioDevice initialized.
+[2022.10.03-16.42.49:119][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.10.03-16.42.49:119][  0]LogInit: Texture streaming: Enabled
+[2022.10.03-16.42.50:609][  0]PlatformVoiceChat: Finished creating VoiceClient.
+[2022.10.03-16.42.50:645][  0]PlatformVoiceChat: VoiceClient initialized.
+[2022.10.03-16.42.50:645][  0]PlatformInit: Display: Platform Build Version: 1.0.267-prod-s
+[2022.10.03-16.42.51:133][  0]LogInit: Display: Game Engine Initialized.
+[2022.10.03-16.42.51:150][  0]LogInit: Display: Starting Game.
+[2022.10.03-16.42.51:150][  0]LogNet: Browse: /Game/Levels/Main?Name=Player
+[2022.10.03-16.42.51:498][  0]LogLoad: LoadMap: /Game/Levels/Main?Name=Player
+[2022.10.03-16.42.51:498][  0]LogWorld: BeginTearingDown for /Temp/Untitled_20
+[2022.10.03-16.42.51:501][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-16.42.51:843][  0]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.03-16.42.51:844][  0]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 60) at 2022.10.03-23.42.51
+[2022.10.03-16.42.51:844][  0]LogWorld: Bringing up level for play took: 0.000344
+[2022.10.03-16.42.52:128][  0]LogLoad: Took 0.630618 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.03-16.42.52:128][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.10.03-16.42.52:128][  0]LogLoad: (Engine Initialization) Total time: 11.38 seconds
+[2022.10.03-16.43.01:502][152]PlatformVoiceChat: Vivox LoginSession State Change: LoginState::LoggingIn
+[2022.10.03-16.43.01:908][164]LogNet: Browse: /Game/Levels/FrontEnd
+[2022.10.03-16.43.01:908][164]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2022.10.03-16.43.01:908][164]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.03-16.43.01:909][164]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-16.43.02:008][164]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2022.10.03-16.43.02:023][164]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2022.10.03-23.43.02
+[2022.10.03-16.43.02:023][164]LogWorld: Bringing up level for play took: 0.000449
+[2022.10.03-16.43.02:027][164]LogLoad: Took 0.119638 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2022.10.03-16.43.10:297][264]LogRHI: Error: Present Fail Count 1
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SyncInterval 0
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1920
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1080
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.OutputWindow 00000000001209B4
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.Windowed true
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2022.10.03-16.43.10:297][264]LogRHI: Error: SwapChainDesc.Flags 2050
+[2022.10.03-16.43.10:526][265]PlatformVoiceChat: Vivox LoginSession State Change: LoginState::LoggedIn
+[2022.10.03-16.43.10:526][265]PlatformVoiceChat: Vivox login success
+[2022.10.03-16.43.13:785][305]LogRHI: Error: Present Fail Count 1
+[2022.10.03-16.43.13:785][305]LogRHI: Error: SyncInterval 0
+[2022.10.03-16.43.13:785][305]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1920
+[2022.10.03-16.43.13:785][305]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1080
+[2022.10.03-16.43.13:785][305]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2022.10.03-16.43.13:785][305]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2022.10.03-16.43.13:785][305]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2022.10.03-16.43.13:785][305]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2022.10.03-16.43.13:786][305]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2022.10.03-16.43.13:786][305]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2022.10.03-16.43.13:786][305]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2022.10.03-16.43.13:786][305]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2022.10.03-16.43.13:786][305]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2022.10.03-16.43.13:786][305]LogRHI: Error: SwapChainDesc.OutputWindow 00000000001209B4
+[2022.10.03-16.43.13:786][305]LogRHI: Error: SwapChainDesc.Windowed true
+[2022.10.03-16.43.13:786][305]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2022.10.03-16.43.13:786][305]LogRHI: Error: SwapChainDesc.Flags 2050
+[2022.10.03-16.44.16:817][296]LogCoreSDK: Error: Failed to recv data from game cluster region us-central: 0 [http://34.132.28.53:82/api/util/echo]
+[2022.10.03-16.48.42:088][483]LogCoreSDK: Error: Failed to recv data from game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-16.49.49:772][546]LogCoreSDK: Error: Failed to recv data from game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-16.52.40:240][206]LogCoreSDK: Error: Failed to recv data from game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-17.06.05:273][627]LogCoreSDK: Error: Failed to recv data from game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-17.14.22:029][254]LogCoreSDK: Error: Failed to recv data from game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-17.18.48:089][914]LogCoreSDK: Error: Failed to recv data from game cluster region eu-west: 9 [http://34.141.177.24:82/api/util/echo]
+[2022.10.03-17.29.34:349][131]LogNet: Browse: /Game/Levels/Main
+[2022.10.03-17.29.34:349][131]LogLoad: LoadMap: /Game/Levels/Main
+[2022.10.03-17.29.34:349][131]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2022.10.03-17.29.34:373][131]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-17.29.34:374][131]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-17.29.34:374][131]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-17.29.34:435][131]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-17.29.34:439][131]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-17.29.34:445][131]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-17.29.34:508][131]LogLoad: Game class is 'bp_MainGameMode_C'
+[2022.10.03-17.29.34:509][131]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 60) at 2022.10.04-00.29.34
+[2022.10.03-17.29.34:509][131]LogWorld: Bringing up level for play took: 0.000427
+[2022.10.03-17.29.34:512][131]LogLoad: Took 0.162718 seconds to LoadMap(/Game/Levels/Main)
+[2022.10.03-17.29.39:894][365]LogNet: Browse: 35.224.32.124:53982/Game/Levels/PlayMap?ClientVersion=1.0.267-prod-s?ContentVersion=1.0.205?GameSessionId=448A2D7F48BD27FE0C420C80EC55C8CF?GameSessionIdParent=?ReservationToken=eyJJZCI6IjQzYjU0YjU3ODA4MjQyYzRiM2EzYTQ2NDlhZmVmODk3IiwiQWNjb3VudElkIjoiZTdkNTEwYjY1NjllNGFhN2IzMGNkNmY2OTg5YjNiMjEiLCJVc2VyTmFtZSI6Imxpbmhxa2hlIiwiR2xvYmFsUG9kSWQiOiJkNTVjMjgxOC0xNDhlLTQ5NmEtYTg4Ny1kOGQwMjQxNTQzNTYiLCJFeHBpcmVzQXQiOiI2MzgwMDQxNTEyMDkxNzk5MzUiLCJQcm9maWxlUGljdHVyZUlkIjoiNDdjNTEzYzM1ZDE3NDZjZmI3YzUzNjdkNTMwYTVjOTAifQ==.TEbXe99LJS7iSSOepCMm5Z/Igfq0ygItUuX+YNGghvqCsfFF4AMYFeYslhT3d9NBdgYZips7Yk8C9a2+Kxbwx1XtudDDm3yDSPR2pVhE6BYwyn4MR/IfQZTa2GGDcGcvBBxvJdwLdbAsntOeUSoVf7cSwl1FBP6cBpmTBRF0r9SmPrn216xy/jqM3AMGsksFTQJ9v3E6kBgBA78Z9YGLRgrX2fiPPB8hQjaNlxKygP3xgDMvOd9RTU9kQxh3+qhwB7RtfkO9V72iTiNLV+AbP6qe/JNOAY+Z39unr/TSBLnNbcyyjHRTFgqwUBcN1qmvZ5EWM57rFj9xE2NnBSRupg==?TransferReason=1
+[2022.10.03-17.29.39:894][365]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.10.03-17.29.39:894][365]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.10.03-17.29.39:895][365]LogNet: Game client on port 53982, rate 1000000
+[2022.10.03-17.29.41:432][440]LogNetVersion: Platform 1.0.0.0, NetCL: 0, EngineNetVer: 16, GameNetVer: 0 (Checksum: 1507790583)
+[2022.10.03-17.29.41:432][440]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 35.224.32.124:53982, Name: CoreConnection_0, Driver: PendingNetDriver CoreNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.10.03-17.29.41:952][466]LogNet: Welcomed by server (Level: /Game/Levels/PlayMap, Game: /Game/GameFramework/bp_PlayGameMode.bp_PlayGameMode_C)
+[2022.10.03-17.29.41:952][466]LogLoad: LoadMap: 35.224.32.124:53982/Game/Levels/PlayMap?ClientVersion=1.0.267-prod-s?ContentVersion=1.0.205?GameSessionId=448A2D7F48BD27FE0C420C80EC55C8CF?GameSessionIdParent=?ReservationToken=eyJJZCI6IjQzYjU0YjU3ODA4MjQyYzRiM2EzYTQ2NDlhZmVmODk3IiwiQWNjb3VudElkIjoiZTdkNTEwYjY1NjllNGFhN2IzMGNkNmY2OTg5YjNiMjEiLCJVc2VyTmFtZSI6Imxpbmhxa2hlIiwiR2xvYmFsUG9kSWQiOiJkNTVjMjgxOC0xNDhlLTQ5NmEtYTg4Ny1kOGQwMjQxNTQzNTYiLCJFeHBpcmVzQXQiOiI2MzgwMDQxNTEyMDkxNzk5MzUiLCJQcm9maWxlUGljdHVyZUlkIjoiNDdjNTEzYzM1ZDE3NDZjZmI3YzUzNjdkNTMwYTVjOTAifQ==.TEbXe99LJS7iSSOepCMm5Z/Igfq0ygItUuX+YNGghvqCsfFF4AMYFeYslhT3d9NBdgYZips7Yk8C9a2+Kxbwx1XtudDDm3yDSPR2pVhE6BYwyn4MR/IfQZTa2GGDcGcvBBxvJdwLdbAsntOeUSoVf7cSwl1FBP6cBpmTBRF0r9SmPrn216xy/jqM3AMGsksFTQJ9v3E6kBgBA78Z9YGLRgrX2fiPPB8hQjaNlxKygP3xgDMvOd9RTU9kQxh3+qhwB7RtfkO9V72iTiNLV+AbP6qe/JNOAY+Z39unr/TSBLnNbcyyjHRTFgqwUBcN1qmvZ5EWM57rFj9xE2NnBSRupg==?TransferReason=1?game=/Game/GameFramework/bp_PlayGameMode.bp_PlayGameMode_C
+[2022.10.03-17.29.41:953][466]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2022.10.03-17.29.41:954][466]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-17.29.42:528][466]LogWorld: Bringing World /Game/Levels/PlayMap.PlayMap up for play (max tick rate 0) at 2022.10.04-00.29.42
+[2022.10.03-17.29.42:541][466]LogWorld: Bringing up level for play took: 0.018845
+[2022.10.03-17.29.43:294][466]LogLoad: Took 1.341659 seconds to LoadMap(/Game/Levels/PlayMap)
+[2022.10.03-17.29.44:625][468]LogCoreSDK: Error: Request failed: Url: https://www.coregames.com/api/Game/70d58a6a139843138b490fb9bd0f326d Get; Error: Invalid game id Request: REDACTED Response: REDACTED - RESPONSE CODE: 200
+[2022.10.03-17.29.46:602][475]PlatformScriptOutput: Warning: Warning: [65BB55788C00BD38] CinematicToolClient:264 Player.bindingPressedEvent is deprecated. Please use Input.actionPressedEvent instead, but note that it does not use the same binding names.
+[2022.10.03-17.29.46:701][475]PlatformScriptOutput: Warning: Warning: [FF1C992903195B91] LoadingScreenControllerClient:100 Player.bindingPressedEvent is deprecated. Please use Input.actionPressedEvent instead, but note that it does not use the same binding names.
+[2022.10.03-17.29.46:822][475]PlatformScriptOutput: [Client] Setting stance InterfaceBrowsing to player Franoo8
+[2022.10.03-17.29.46:822][475]PlatformScriptOutput: [Client] Setting stance InterfaceBrowsing to player MUGS44
+[2022.10.03-17.29.46:940][477]PlatformVoiceChat: ChannelSession State Change in game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s: ConnectionState::Connecting
+[2022.10.03-17.29.47:165][481]PlatformScriptOutput: Successfully loaded 6 active events.
+[2022.10.03-17.29.47:168][481]PlatformVoiceChat: Joined Vivox channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s
+[2022.10.03-17.29.47:975][492]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.29.48:407][493]LogRHI: Error: Present Fail Count 1
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SyncInterval 0
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1920
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1080
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.OutputWindow 00000000001209B4
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.Windowed true
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2022.10.03-17.29.48:407][493]LogRHI: Error: SwapChainDesc.Flags 2050
+[2022.10.03-17.29.48:407][493]PlatformVoiceChat: User e7d510b6569e4aa7b30cd6f6989b3b21 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = true)
+[2022.10.03-17.29.48:408][493]PlatformVoiceChat: ChannelSession State Change in game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s: ConnectionState::Connected
+[2022.10.03-17.29.48:408][493]PlatformVoiceChat: Joined Vivox channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s
+[2022.10.03-17.29.50:801][504]PlatformScriptOutput: Initializing collectionIndex: tournament
+[2022.10.03-17.29.52:266][516]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.29.52:268][516]PlatformScriptOutput: Initializing collectionIndex: active
+[2022.10.03-17.29.54:613][536]PlatformScriptOutput: Initializing collectionIndex: active?EVENT
+[2022.10.03-17.29.55:457][543]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.29.56:572][552]PlatformScriptOutput: [Client] Setting stance InterfaceBrowsing to player bulbizard20
+[2022.10.03-17.29.56:578][552]PlatformScriptOutput: Initializing collectionIndex: most_engaging
+[2022.10.03-17.29.58:276][565]PlatformScriptOutput: [Client] Setting stance InterfaceBrowsing to player TUMU922
+[2022.10.03-17.29.58:779][569]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.29.59:236][574]PlatformVoiceChat: User 3fb010e4d45e4e87a0827ee2b66e49eb has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.29.59:237][574]PlatformVoiceChat: User 7bb66910974a40adb82d91a6b918cf23 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.29.59:606][578]PlatformVoiceChat: User 3fb010e4d45e4e87a0827ee2b66e49eb has left channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.01:927][603]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.02:005][604]PlatformVoiceChat: User 42a7eb685c5b480cb8266e572d810e6e has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.02:551][610]PlatformScriptOutput: 0
+[2022.10.03-17.30.03:928][625]PlatformScriptOutput: [Client] Setting stance InterfaceBrowsing to player Superknuffels
+[2022.10.03-17.30.04:489][631]PlatformScriptOutput: 1
+[2022.10.03-17.30.05:111][638]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.05:499][642]PlatformScriptOutput: Get moving around Core World
+[2022.10.03-17.30.08:280][673]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.09:499][687]PlatformScriptOutput: 2
+[2022.10.03-17.30.11:381][708]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.12:562][721]PlatformScriptOutput: Get on your Mount
+[2022.10.03-17.30.13:012][726]PlatformVoiceChat: User f35efa7939f84bca9dd797f5a083b520 has left channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.14:560][743]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.17:752][778]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.20:939][807]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.24:065][835]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.25:011][844]PlatformVoiceChat: User e6acef43f7454c05a1d1784bc8070cf2 has left channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.25:026][844]PlatformVoiceChat: User 7bb66910974a40adb82d91a6b918cf23 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.26:373][857]PlatformVoiceChat: User 42a7eb685c5b480cb8266e572d810e6e has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.27:166][865]PlatformVoiceChat: User e06eaf3ab74e4c00aa419153d5a90a4f has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.27:255][866]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.28:979][883]PlatformScriptOutput: 3
+[2022.10.03-17.30.29:087][884]PlatformVoiceChat: User e8e3ade9adfc47b2bf43e9cc4940ca7c has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.30:427][897]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.33:020][921]PlatformScriptOutput: Check out the Cosmetics Menu
+[2022.10.03-17.30.33:216][923]PlatformVoiceChat: User 7bb66910974a40adb82d91a6b918cf23 has left channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.33:572][926]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.36:675][956]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.36:995][959]PlatformVoiceChat: User e8e3ade9adfc47b2bf43e9cc4940ca7c has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.39:528][983]PlatformVoiceChat: User e06eaf3ab74e4c00aa419153d5a90a4f has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.39:837][986]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.40:802][995]PlatformVoiceChat: User e8e3ade9adfc47b2bf43e9cc4940ca7c has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.41:435][  1]PlatformVoiceChat: User 42a7eb685c5b480cb8266e572d810e6e has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.30.43:018][ 17]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.46:198][ 49]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.49:393][ 80]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.52:590][112]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.55:775][143]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.58:924][174]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.30.59:943][184]PlatformVoiceChat: User e8e3ade9adfc47b2bf43e9cc4940ca7c has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.01:231][197]PlatformVoiceChat: User e06eaf3ab74e4c00aa419153d5a90a4f has left channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.02:095][206]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.02:305][208]PlatformScriptOutput: Error: Error running Lua task: [DC42AC6CAFA57912] ActivityFeedTabDisplayClient:80: Attempted to access an object that has been destroyed. Consider using Object.IsValid(myObject) to check for this condition.
+[2022.10.03-17.31.05:245][238]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.06:025][246]PlatformVoiceChat: User e8e3ade9adfc47b2bf43e9cc4940ca7c has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.08:354][270]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.09:929][286]PlatformVoiceChat: User 12b309dcd80c439983882477b9274ec4 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.10:781][295]PlatformScriptOutput: 4
+[2022.10.03-17.31.11:464][302]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.13:285][321]PlatformVoiceChat: User e8e3ade9adfc47b2bf43e9cc4940ca7c has left channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.13:286][321]PlatformScriptOutput: Warning: Warning: [73641C7934CC218A] PlayerControllerClient:159 No player data is found for Cpt.Kucker
+[2022.10.03-17.31.13:286][321]PlatformScriptOutput: Warning: Warning: [73641C7934CC218A] PlayerControllerClient:159 No player data is found for Cpt.Kucker
+[2022.10.03-17.31.13:286][321]PlatformScriptOutput: Warning: Warning: [73641C7934CC218A] PlayerControllerClient:159 No player data is found for Cpt.Kucker
+[2022.10.03-17.31.13:286][321]PlatformScriptOutput: Warning: Warning: [73641C7934CC218A] PlayerControllerClient:159 No player data is found for Cpt.Kucker
+[2022.10.03-17.31.13:573][324]PlatformScriptOutput: Error: Error running Lua task: [DC42AC6CAFA57912] ActivityFeedTabDisplayClient:107: Attempted to access an object that has been destroyed. Consider using Object.IsValid(myObject) to check for this condition.
+[2022.10.03-17.31.14:270][331]PlatformScriptOutput: RPCrate start client.
+[2022.10.03-17.31.14:270][331]PlatformScriptOutput: Create sequence started.
+[2022.10.03-17.31.14:271][331]PlatformScriptOutput: Open Daily Bonus Crate
+[2022.10.03-17.31.14:661][335]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.14:665][335]PlatformVoiceChat: User f35efa7939f84bca9dd797f5a083b520 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.17:791][371]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.19:186][386]PlatformVoiceChat: User f35efa7939f84bca9dd797f5a083b520 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.20:916][404]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.24:048][436]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.27:221][468]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.28:002][476]PlatformScriptOutput: [Client] Setting stance InterfaceBrowsing to player LastOfRuin
+[2022.10.03-17.31.29:962][496]PlatformVoiceChat: User 12b309dcd80c439983882477b9274ec4 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.30:356][500]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.33:538][532]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.36:643][563]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.38:936][586]PlatformVoiceChat: User 0a51d8878844463eb56e393c1074927a has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.39:842][595]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.42:945][626]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.43:348][630]PlatformVoiceChat: User 12b309dcd80c439983882477b9274ec4 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.44:444][641]PlatformVoiceChat: User 12b309dcd80c439983882477b9274ec4 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.46:041][657]PlatformVoiceChat: User 12b309dcd80c439983882477b9274ec4 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.46:139][658]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.49:329][690]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.49:827][695]PlatformVoiceChat: User 12b309dcd80c439983882477b9274ec4 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.51:401][711]PlatformVoiceChat: User f35efa7939f84bca9dd797f5a083b520 has left channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.31.51:401][711]PlatformScriptOutput: Warning: Warning: [73641C7934CC218A] PlayerControllerClient:159 No player data is found for Whaat
+[2022.10.03-17.31.51:401][711]PlatformScriptOutput: Warning: Warning: [73641C7934CC218A] PlayerControllerClient:159 No player data is found for Whaat
+[2022.10.03-17.31.51:401][711]PlatformScriptOutput: Warning: Warning: [73641C7934CC218A] PlayerControllerClient:159 No player data is found for Whaat
+[2022.10.03-17.31.51:402][711]PlatformScriptOutput: Warning: Warning: [73641C7934CC218A] PlayerControllerClient:159 No player data is found for Whaat
+[2022.10.03-17.31.51:708][714]PlatformScriptOutput: Error: Error running Lua task: [DC42AC6CAFA57912] ActivityFeedTabDisplayClient:107: Attempted to access an object that has been destroyed. Consider using Object.IsValid(myObject) to check for this condition.
+[2022.10.03-17.31.52:497][722]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.55:656][754]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.31.58:824][786]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.00:113][799]PlatformVoiceChat: User e02728d769db45159f89e8c7f15af029 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.01:984][818]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.04:082][839]PlatformVoiceChat: User 42a7eb685c5b480cb8266e572d810e6e has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.05:190][850]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.05:973][863]PlatformScriptOutput: [Client] Setting stance InterfaceBrowsing to player linhqkhe
+[2022.10.03-17.32.08:234][973]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.08:780][994]PlatformVoiceChat: User 23f5acfa69024b78a9f8b481ce83ab40 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.10:149][ 29]PlatformVoiceChat: User e02728d769db45159f89e8c7f15af029 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.11:306][ 56]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.12:228][ 79]PlatformScriptOutput: [Client] Setting stance InterfaceBrowsing to player Letrix_15
+[2022.10.03-17.32.13:713][138]PlatformVoiceChat: User 3fb010e4d45e4e87a0827ee2b66e49eb has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.13:829][144]PlatformVoiceChat: User e02728d769db45159f89e8c7f15af029 has left channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.14:566][164]PlatformVoiceChat: User 0a51d8878844463eb56e393c1074927a has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.14:584][165]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.17:072][284]PlatformVoiceChat: User 12b309dcd80c439983882477b9274ec4 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.17:609][314]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.20:636][475]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.23:670][635]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.23:716][637]PlatformVoiceChat: User 12b309dcd80c439983882477b9274ec4 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.26:690][758]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.29:911][797]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.30:458][803]PlatformVoiceChat: User ed7c06fadfe643b48fc12c53b68f6528 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.31:813][812]LogRHI: Error: Present Fail Count 1
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SyncInterval 0
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1920
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1080
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.OutputWindow 00000000001209B4
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.Windowed true
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2022.10.03-17.32.31:813][812]LogRHI: Error: SwapChainDesc.Flags 2050
+[2022.10.03-17.32.31:813][812]PlatformVoiceChat: User 3fb010e4d45e4e87a0827ee2b66e49eb has left channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.31:813][812]PlatformScriptOutput: Warning: Warning: [73641C7934CC218A] PlayerControllerClient:159 No player data is found for bulbizard20
+[2022.10.03-17.32.31:814][812]PlatformScriptOutput: Warning: Warning: [73641C7934CC218A] PlayerControllerClient:159 No player data is found for bulbizard20
+[2022.10.03-17.32.31:814][812]PlatformScriptOutput: Warning: Warning: [73641C7934CC218A] PlayerControllerClient:159 No player data is found for bulbizard20
+[2022.10.03-17.32.31:814][812]PlatformScriptOutput: Warning: Warning: [73641C7934CC218A] PlayerControllerClient:159 No player data is found for bulbizard20
+[2022.10.03-17.32.32:279][817]PlatformScriptOutput: Error: Error running Lua task: [DC42AC6CAFA57912] ActivityFeedTabDisplayClient:80: Attempted to access an object that has been destroyed. Consider using Object.IsValid(myObject) to check for this condition.
+[2022.10.03-17.32.33:341][828]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.36:473][859]PlatformScriptOutput: [Client] Setting stance InterfaceBrowsing to player Metika04
+[2022.10.03-17.32.36:484][859]PlatformVoiceChat: User 23f5acfa69024b78a9f8b481ce83ab40 has joined channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.36:584][860]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.39:762][891]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.42:795][941]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.44:241][ 17]PlatformVoiceChat: User 23f5acfa69024b78a9f8b481ce83ab40 has left channel game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s (self = false)
+[2022.10.03-17.32.44:573][ 35]PlatformScriptOutput: [Client] Setting stance InterfaceBrowsing to player nexxino
+[2022.10.03-17.32.45:825][102]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.48:850][260]PlatformVideoStreaming: Warning: Retrying stopped video stream: 
+[2022.10.03-17.32.49:740][298]Closing by request
+[2022.10.03-17.32.49:740][298]LogExit: RequestExit(0, 0, 0000000005C33E15)
+[2022.10.03-17.32.49:741][298]LogEngine: All Windows Closed
+[2022.10.03-17.32.49:741][298]LogExit: RequestExit(0, 0, 0000000005C457EC)
+[2022.10.03-17.32.49:761][299]LogInit: Display: PreExit Game.
+[2022.10.03-17.32.49:763][299]LogWorld: BeginTearingDown for /Game/Levels/PlayMap
+[2022.10.03-17.32.49:763][299]LogNet: World NetDriver shutdown CoreNetDriver_0 [GameNetDriver]
+[2022.10.03-17.32.49:763][299]LogNet: DestroyNamedNetDriver CoreNetDriver_0 [GameNetDriver]
+[2022.10.03-17.32.49:765][299]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 35.224.32.124:53982, Name: CoreConnection_0, Driver: GameNetDriver CoreNetDriver_0, IsServer: NO, PC: PFPlayerController_0, Owner: PFPlayerController_0, UniqueId: NULL:e7d51...b3b21, Channels: 26, Time: 2022.10.03-17.32.49
+[2022.10.03-17.32.49:765][299]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 35.224.32.124:53982, Name: CoreConnection_0, Driver: GameNetDriver CoreNetDriver_0, IsServer: NO, PC: PFPlayerController_0, Owner: PFPlayerController_0, UniqueId: NULL:e7d51...b3b21
+[2022.10.03-17.32.49:766][299]LogExit: GameNetDriver CoreNetDriver_0 shut down
+[2022.10.03-17.32.49:813][299]PlatformVoiceChat: ChannelSession State Change in game_all_e39f3e57c5be416a82a50e1b3673828d_d55c2818-148e-496a-a887-d8d024154356_1_0_267-prod-s: ConnectionState::Disconnecting
+[2022.10.03-17.32.50:374][299]LogWorld: UWorld::CleanupWorld for PlayMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-17.32.51:797][299]LogExit: Preparing to exit.
+[2022.10.03-17.32.53:261][299]LogExit: Game engine shut down
+[2022.10.03-17.32.53:568][299]LogExit: Object subsystem successfully closed.
+[2022.10.03-17.32.53:657][299]LogHttp: Display: Http module shutting down, but needs to wait on 6 outstanding Http requests:
+[2022.10.03-17.32.53:657][299]LogHttp: Display: 	verb=[POST] url=[https://www.coregames.com/api/Friends/account_status] refs=[2] status=Processing
+[2022.10.03-17.32.53:657][299]LogHttp: Display: 	verb=[POST] url=[https://www.coregames.com/api/Analytics/event_drop] refs=[2] status=Processing
+[2022.10.03-17.32.53:657][299]LogHttp: Display: 	verb=[POST] url=[https://www.coregames.com/api/Analytics/event_drop] refs=[2] status=Processing
+[2022.10.03-17.32.53:657][299]LogHttp: Display: 	verb=[POST] url=[https://www.coregames.com/api/Promotion/tracking/view] refs=[2] status=Processing
+[2022.10.03-17.32.53:657][299]LogHttp: Display: 	verb=[POST] url=[https://www.coregames.com/api/Analytics/event_drop] refs=[2] status=Processing
+[2022.10.03-17.32.53:657][299]LogHttp: Display: 	verb=[POST] url=[https://www.coregames.com/api/Promotion/tracking/view] refs=[2] status=Processing
+[2022.10.03-17.32.53:657][299]LogHttp: Display: cleaning up 6 outstanding Http requests.
+[2022.10.03-17.32.53:724][299]LogD3D11RHI: Shutdown
+[2022.10.03-17.32.53:724][299]LogD3D11RHI: CleanupD3DDevice
+[2022.10.03-17.32.53:743][299]LogExit: Exiting.
+[2022.10.03-17.32.53:753][299]Log file closed, 10/04/22 00:32:53
